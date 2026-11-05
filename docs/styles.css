@@ -499,6 +499,9 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 .data-table tbody tr:hover td:first-child{box-shadow:inset 3px 0 0 #47C2FF}
 /* Footer depth */
 .site-footer{background:linear-gradient(180deg,#060E1C,#04101E)}
+/* Fix legacy orbital centering: over-constrained left/right collapses in RTL.
+   Use direction-proof centering instead (inset 0 + margin auto). */
+.orbital{left:0;right:0;top:0;bottom:0;margin:auto}
 
 /* ======= Scroll-linked ocean wave ======= */
 .site-top::after{content:"";position:absolute;left:-8%;right:-8%;bottom:-30px;height:76px;z-index:1;pointer-events:none;
