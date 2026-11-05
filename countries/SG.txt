@@ -1,5 +1,4 @@
-tg://proxy?server=dns.anton-and-alyona.click&port=443&secret=ee3404630470c2a08cdaff09293f73069d646e732e616e746f6e2d616e642d616c796f6e612e636c69636b
-tg://proxy?server=34.87.158.150&port=12432&secret=eeeaabea0b96a8e55f0f842afd282417d07777772e6d6963726f736f66742e636f6d
+tg://proxy?server=mtproxy.getpagespeed.com&port=8444&secret=ddd7f04aa6631130af1a153e7a5e12c291
 tg://proxy?server=66.42.63.47&port=8443&secret=2adab36179e7a39026adf74034615248
 tg://proxy?server=35.240.134.70&port=32430&secret=ee01a888a94071a122b2c25153e940d1f97777772e6d6963726f736f66742e636f6d
-tg://proxy?server=mtproxy.getpagespeed.com&port=8444&secret=ddd7f04aa6631130af1a153e7a5e12c291
+tg://proxy?server=34.87.158.150&port=12432&secret=eeeaabea0b96a8e55f0f842afd282417d07777772e6d6963726f736f66742e636f6d
