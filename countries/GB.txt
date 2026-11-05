@@ -1,6 +1,8 @@
 tg://proxy?server=nex7.space&port=443&secret=e8da6fda391b335dff2083634c9e7db5
-tg://proxy?server=45.43.75.152&port=443&secret=ee5947b87f1eeb8b5f3ad4632a64293400626973636f7474692e79656b74616e65742e636f6d
 tg://proxy?server=68.164.56.131&port=443&secret=ee5622e11fff3e49bcc85280197a6106b5742e6d656f772d6e6574776f726b2e636f6d
+tg://proxy?server=45.43.75.152&port=443&secret=ee5947b87f1eeb8b5f3ad4632a64293400626973636f7474692e79656b74616e65742e636f6d
 tg://proxy?server=43.225.90.169&port=443&secret=d744bb1c55262c6150bb89d6a390c553
 tg://proxy?server=two.dedconnect.cc&port=443&secret=eeddb8caf8cc8af58676f5e60385f51c0d74776f2e646564636f6e6e6563742e6363
+tg://proxy?server=mt1.leeroy.uz&port=443&secret=eede199cd5cc7674e522ef10f4359224d36d2e6265626f6f2e7275
 tg://proxy?server=212.134.174.23&port=45332&secret=eea82d68aab6c4f875b23af6936f4a53847777772e62696e672e636f6d
+tg://proxy?server=shared.ddproxy.xyz&port=443&secret=eedddddddddddddddddddddddddddddddd6d2e6265626f6f2e7275

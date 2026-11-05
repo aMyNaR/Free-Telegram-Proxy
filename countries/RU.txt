@@ -1,7 +1,7 @@
 tg://proxy?server=tg-proxy.link&port=443&secret=ee9915f2f7bf8d669a5611e89095859c8a6170692e617669746f2e7275
-tg://proxy?server=pub.ultra-fast.cc&port=443&secret=ee5ad76993a892e64b72a38d6b797202e87075622e756c7472612d666173742e6363
 tg://proxy?server=git.zhaopn.xyz&port=443&secret=ee22b3c977c97a3a27c585479d4952c0646769742e7a68616f706e2e78797a
-tg://proxy?server=89.108.71.59&port=443&secret=ee00d85706e58f9b5ead3b6c8a08d984df636c6f75642e6d61696c2e7275
+tg://proxy?server=t3.myrka.digital&port=444&secret=ee8888777766665555444433332222111174332e6d79726b612e6469676974616c
 tg://proxy?server=186.246.4.174&port=8443&secret=ddbd7949ea22934a3af773233bd1e6cd87
-tg://proxy?server=m.lumenpost.top&port=443&secret=eee8ec1c1d2fa616b175c8d463a663a0dd6d2e6c756d656e706f73742e746f70
+tg://proxy?server=89.108.71.59&port=443&secret=ee00d85706e58f9b5ead3b6c8a08d984df636c6f75642e6d61696c2e7275
 tg://proxy?server=proxy.privateproxy.top&port=8443&secret=dd17aca106bf110b8efac6b77a545a8be5
+tg://proxy?server=m.lumenpost.top&port=443&secret=eee47c550d74b034470a626d17bd687c6a6d2e6c756d656e706f73742e746f70

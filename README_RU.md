@@ -268,20 +268,20 @@ MTProto в каждый момент мертва, а многое из того
 описывает списки, поэтому он не может с ними разойтись:
 
 <!-- LIVE:BEGIN -->
-**Последнее обновление:** `2026-11-05T09:19:56Z` · проверено из `US` (`DFW`)
+**Последнее обновление:** `2026-11-05T10:47:32Z` · проверено из `US` (`SEA`)
 
 | Этап | Количество |
 |---|---:|
-| ссылок собрано из всех источников | 5,196 |
-| уникальных серверов (IP:порт) проверено | 3,099 |
-| **прошли проверку во всех 3 раундах** (ссылки) | **2,654** |
-| то же, в **реальных серверах** | **679** (615 IP) |
-| доля самого частого IP среди проверенных ссылок | 1,025 (38.6%) |
-| доля крупнейшей сети (`AS215133`) среди проверенных ссылок | 1,319 (49.7%) |
+| ссылок собрано из всех источников | 5,157 |
+| уникальных серверов (IP:порт) проверено | 3,081 |
+| **прошли проверку во всех 3 раундах** (ссылки) | **2,607** |
+| то же, в **реальных серверах** | **673** (610 IP) |
+| доля самого частого IP среди проверенных ссылок | 993 (38.1%) |
+| доля крупнейшей сети (`AS215133`) среди проверенных ссылок | 1,287 (49.4%) |
 
-`resilient` 615 · `fast` 160 · `stable` 585 · `verified` 2654 · `faketls` 186 · `secure` 153 · `classic` 296 · `all` 5196
+`resilient` 610 · `fast` 156 · `stable` 579 · `verified` 2607 · `faketls` 188 · `secure` 154 · `classic` 289 · `all` 5157
 
-[🇩🇪 DE 230](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/countries/DE.txt) [🇮🇷 IR 116](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/countries/IR.txt) [🇫🇮 FI 101](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/countries/FI.txt) [🇳🇱 NL 59](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/countries/NL.txt) [🇭🇰 HK 18](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/countries/HK.txt) [🇺🇸 US 15](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/countries/US.txt) [🇵🇱 PL 13](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/countries/PL.txt) [🇫🇷 FR 10](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/countries/FR.txt) [🇷🇺 RU 7](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/countries/RU.txt) [🇬🇧 GB 6](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/countries/GB.txt) [🇸🇪 SE 5](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/countries/SE.txt) [🇸🇬 SG 5](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/countries/SG.txt)
+[🇩🇪 DE 229](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/countries/DE.txt) [🇮🇷 IR 109](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/countries/IR.txt) [🇫🇮 FI 99](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/countries/FI.txt) [🇳🇱 NL 60](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/countries/NL.txt) [🇭🇰 HK 18](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/countries/HK.txt) [🇺🇸 US 18](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/countries/US.txt) [🇵🇱 PL 15](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/countries/PL.txt) [🇫🇷 FR 9](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/countries/FR.txt) [🇬🇧 GB 8](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/countries/GB.txt) [🇷🇺 RU 7](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/countries/RU.txt) [🇸🇪 SE 5](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/countries/SE.txt) [🇹🇷 TR 5](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/countries/TR.txt)
 <!-- LIVE:END -->
 
 **Главные строки — «проверенные ссылки» и «реальные серверы».** В запуске
