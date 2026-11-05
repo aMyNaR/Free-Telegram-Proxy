@@ -500,8 +500,9 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 /* Footer depth */
 .site-footer{background:linear-gradient(180deg,#060E1C,#04101E)}
 /* Fix legacy orbital centering: over-constrained left/right collapses in RTL.
-   Use direction-proof centering instead (inset 0 + margin auto). */
-.orbital{left:0;right:0;top:0;bottom:0;margin:auto}
+   Use direction-proof centering instead (inset 0 + margin auto).
+   !important wins over the later responsive breakpoint margin overrides. */
+.orbital,.orbital.orbit-a,.orbit-b{left:0!important;right:0!important;top:0!important;bottom:0!important;margin:auto!important}
 
 /* ======= Scroll-linked ocean wave ======= */
 .site-top::after{content:"";position:absolute;left:-8%;right:-8%;bottom:-30px;height:76px;z-index:1;pointer-events:none;
