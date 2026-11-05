@@ -51,7 +51,10 @@ stage.addEventListener('pointerleave',()=>{stage.style.setProperty('--tiltX','0d
 let scrollFrame=0;
 function scrollProgress(){if(scrollFrame)return;scrollFrame=requestAnimationFrame(()=>{
  const max=Math.max(1,root.scrollHeight-window.innerHeight);
- root.style.setProperty('--read-progress',(Math.max(0,Math.min(100,window.scrollY/max*100))).toFixed(2)+'%');scrollFrame=0;
+ root.style.setProperty('--read-progress',(Math.max(0,Math.min(100,window.scrollY/max*100))).toFixed(2)+'%');
+  const shift=Math.min(140,window.scrollY*0.18);
+  root.style.setProperty('--ocean-shift',shift.toFixed(1)+'px');
+  scrollFrame=0;
 })}
 window.addEventListener('scroll',scrollProgress,{passive:true});scrollProgress();
 if('IntersectionObserver' in window){
