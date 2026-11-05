@@ -462,8 +462,8 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 .site-top .hero-visual .signal-flow{filter:drop-shadow(0 0 6px rgba(120,200,255,.35))}
 
 /* ======= Ocean Polish v2 (premium depth, glass & glow) ======= */
-/* Aura around the emblem */
-.brand-stage img{filter:drop-shadow(0 0 30px rgba(84,198,255,.28))}
+/* Aura around the emblem (small radius = cheaper raster) */
+.brand-stage img{filter:drop-shadow(0 0 12px rgba(84,198,255,.20))}
 /* Drifting depth layers (composited only) */
 .hero-mesh{translate:0 0;animation:heroDrift 26s ease-in-out infinite alternate}
 .hero-noise{animation:breathGlow 9s ease-in-out infinite alternate}
@@ -471,10 +471,9 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 @keyframes heroDrift{from{translate:-20px -12px}to{translate:24px 16px}}
 @keyframes breathGlow{from{opacity:.3}to{opacity:.72}}
 @keyframes sheenPulse{0%,100%{opacity:.5}50%{opacity:1}}
-/* Glassmorphism cards */
+/* Glassmorphism cards (no backdrop-filter → cheap to render) */
 .stat-item,.method-card,.seo-fact-grid article,.proxy-card{
-  background:linear-gradient(160deg,rgba(13,34,64,.78),rgba(8,25,48,.92));
-  -webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);
+  background:linear-gradient(160deg,rgba(13,34,64,.82),rgba(8,25,48,.94));
 }
 .stat-item::after,.method-card::after,.seo-fact-grid article::after,.proxy-card::after{
   content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;
@@ -507,10 +506,10 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 /* ======= Scroll-linked ocean wave ======= */
 .site-top::after{content:"";position:absolute;left:-8%;right:-8%;bottom:-30px;height:76px;z-index:1;pointer-events:none;
   background:
-    radial-gradient(110% 100% at 50% 100%,rgba(71,194,255,.38),transparent 60%),
-    radial-gradient(55% 90% at 18% 100%,rgba(34,120,215,.35),transparent 60%),
-    radial-gradient(55% 90% at 82% 100%,rgba(34,120,215,.30),transparent 60%);
-  filter:blur(5px);opacity:.5;
+    radial-gradient(110% 100% at 50% 100%,rgba(71,194,255,.32),transparent 60%),
+    radial-gradient(55% 90% at 18% 100%,rgba(34,120,215,.30),transparent 60%),
+    radial-gradient(55% 90% at 82% 100%,rgba(34,120,215,.26),transparent 60%);
+  opacity:.42;
   translate:var(--ocean-shift,0px) 0;
   transition:translate .08s linear;
   animation:waveSway 9s ease-in-out infinite alternate;
