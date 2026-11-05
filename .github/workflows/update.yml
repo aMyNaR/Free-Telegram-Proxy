@@ -11,6 +11,12 @@ name: Update proxies
 on:
   schedule:
     - cron: "*/10 * * * *"
+  push:
+    paths:
+      - "tgproxy/**"
+      - "templates/**"
+      - "tools/**"
+      - ".github/workflows/update.yml"
   workflow_dispatch:
     inputs:
       force:
