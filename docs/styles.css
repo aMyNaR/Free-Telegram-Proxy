@@ -506,6 +506,9 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 .plane-flight{position:absolute;z-index:1;width:clamp(80px,10vw,150px);pointer-events:none;mix-blend-mode:screen;user-select:none;opacity:0}
 .plane-flight.a{top:14%;left:-15%;animation:flyAcross 24s linear infinite}
 .plane-flight.b{bottom:18%;left:-15%;width:clamp(56px,7vw,104px);animation:flyAcross 32s linear infinite;animation-delay:-16s}
+.plane-flight.c{top:34%;left:-15%;width:clamp(48px,6vw,90px);opacity:0;animation:flyAcross 20s linear infinite;animation-delay:-10s}
+.plane-flight.d{bottom:40%;left:-15%;width:clamp(64px,8vw,118px);animation:flyAcross 28s linear infinite;animation-delay:-4s}
+.plane-flight.e{top:6%;left:-15%;width:clamp(42px,5vw,78px);animation:flyAcross 36s linear infinite;animation-delay:-22s}
 @keyframes flyAcross{
   0%{transform:translate3d(0,6vh,0) rotate(-8deg);opacity:0}
   6%{opacity:.85}
