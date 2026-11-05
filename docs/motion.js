@@ -42,8 +42,8 @@ stage.addEventListener('pointermove',e=>{
  if(tiltFrame)return;
  tiltFrame=requestAnimationFrame(()=>{
  const r=stage.getBoundingClientRect();
- stage.style.setProperty('--tiltX',(((e.clientY-r.top)/r.height)-.5)*-5+'deg');
- stage.style.setProperty('--tiltY',(((e.clientX-r.left)/r.width)-.5)*5+'deg');
+ stage.style.setProperty('--tiltX',(((e.clientY-r.top)/r.height)-.5)*-8+'deg');
+ stage.style.setProperty('--tiltY',(((e.clientX-r.left)/r.width)-.5)*8+'deg');
  tiltFrame=0;
  });
 },{passive:true});
