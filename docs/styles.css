@@ -517,6 +517,16 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
   94%{opacity:.85}
   100%{transform:translate3d(122vw,8vh,0) rotate(10deg);opacity:0}
 }
+/* Mobile performance: drop the heavy decorative layers on small screens */
+@media(max-width:770px){
+  .plane-flight{display:none}
+  .lightball{display:none}
+  .orbital{display:none}
+  .hero-mesh{animation:none}
+  .hero-noise{animation:none}
+  .btn::after{animation:none}
+  .brand-stage::before,.brand-stage::after{animation:none}
+}
 
 /* ======= Scroll-linked ocean wave ======= */
 .site-top::after{content:"";position:absolute;left:-8%;right:-8%;bottom:-30px;height:76px;z-index:1;pointer-events:none;
