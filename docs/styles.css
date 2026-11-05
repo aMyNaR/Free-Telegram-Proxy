@@ -502,6 +502,18 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
    Use direction-proof centering instead (inset 0 + margin auto).
    !important wins over the later responsive breakpoint margin overrides. */
 .orbital,.orbital.orbit-a,.orbit-b{left:0!important;right:0!important;top:0!important;bottom:0!important;margin:auto!important}
+/* Perpetual paper-plane flight across the hero */
+.plane-flight{position:absolute;z-index:1;width:clamp(80px,10vw,150px);pointer-events:none;mix-blend-mode:screen;user-select:none;opacity:0}
+.plane-flight.a{top:14%;left:-15%;animation:flyAcross 24s linear infinite}
+.plane-flight.b{bottom:18%;left:-15%;width:clamp(56px,7vw,104px);animation:flyAcross 32s linear infinite;animation-delay:-16s}
+@keyframes flyAcross{
+  0%{transform:translate3d(0,6vh,0) rotate(-8deg);opacity:0}
+  6%{opacity:.85}
+  45%{transform:translate3d(40vw,-10vh,0) rotate(4deg)}
+  55%{transform:translate3d(48vw,-4vh,0) rotate(-2deg)}
+  94%{opacity:.85}
+  100%{transform:translate3d(122vw,8vh,0) rotate(10deg);opacity:0}
+}
 
 /* ======= Scroll-linked ocean wave ======= */
 .site-top::after{content:"";position:absolute;left:-8%;right:-8%;bottom:-30px;height:76px;z-index:1;pointer-events:none;
