@@ -527,6 +527,19 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
   .btn::after{animation:none}
   .brand-stage::before,.brand-stage::after{animation:none}
 }
+/* Mobile polish: cheaper paint, no accidental zoom, deferred below-fold rendering */
+@media(max-width:770px){
+  .hero-bg{filter:none;opacity:.4}
+  .hero-sheen{animation:none}
+  .brand-stage{animation:none}
+  .floating-note,.float-coordinate{animation:none}
+  .hero-eyebrow{animation:none}
+  .stat-item,.method-card,.seo-fact-grid article,.workspace{box-shadow:none}
+  input,select{font-size:16px}
+  #pillars,#miniapp,#diamonds,#faq,.join{
+    content-visibility:auto;contain-intrinsic-size:auto 900px;
+  }
+}
 
 /* ======= Scroll-linked ocean wave ======= */
 .site-top::after{content:"";position:absolute;left:-8%;right:-8%;bottom:-30px;height:76px;z-index:1;pointer-events:none;
