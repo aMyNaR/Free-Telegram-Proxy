@@ -4,7 +4,7 @@ body:
     attributes:
       value: |
         Every claim in this project is measured, not assumed. Ideas that come with a way to measure them are the easiest to accept.
-        Want a new proxy source added? Use the issue form [**Suggest a source**](https://github.com/0xRadikal/Free-Telegram-Proxy/issues/new/choose).
+        Want a new proxy source added? Use the issue form [**Suggest a source**](https://github.com/aMyNaR/Free-Telegram-Proxy/issues/new/choose).
   - type: textarea
     id: problem
     attributes:

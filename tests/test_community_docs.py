@@ -136,7 +136,7 @@ def test_site_scripts_never_inject_html_or_store_anything():
 def test_security_states_supported_version_and_policy_links():
     s = _read("SECURITY.md")
     assert "## Supported versions" in s and "`main`" in s
-    assert "https://github.com/0xRadikal/Free-Telegram-Proxy/security/advisories/new" in s
+    assert "https://github.com/aMyNaR/Free-Telegram-Proxy/security/advisories/new" in s
 
 
 # -------------------------------------------------------------- accessibility

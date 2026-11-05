@@ -112,7 +112,7 @@ publish (rolling squash روی main، مثل Free-v2ray-Configs)
 ## 5. فازها و TODO
 
 ### فاز 0 — پایه
-- [ ] اسکلت ریپو در `0xRadikal/Free-Telegram-Proxy` (الان **کاملاً خالی** است، 0 کامیت — چک شد)
+- [ ] اسکلت ریپو در `aMyNaR/Free-Telegram-Proxy` (الان **کاملاً خالی** است، 0 کامیت — چک شد)
 - [ ] `pyproject`, pytest, ruff, LICENSE (MIT), SECURITY, CONTRIBUTING
 - [ ] CI: تست + lint روی هر push
 

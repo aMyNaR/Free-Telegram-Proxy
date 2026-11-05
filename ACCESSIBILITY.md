@@ -2,7 +2,7 @@
 
 The proxy list exists for people whose internet is restricted, often on old phones, slow connections, small screens, or with a screen reader or keyboard only. If you hit a barrier on the site or in the lists, please tell us: it is a bug, and you do not need to explain why you need the fix.
 
-This page covers the website at https://0xradikal.github.io/Free-Telegram-Proxy/ (English and Persian), the plain-text lists, and the repository's own documents. It describes what has been tested and what has not. It is not a claim of WCAG conformance.
+This page covers the website at https://amynar.github.io/Free-Telegram-Proxy/ (English and Persian), the plain-text lists, and the repository's own documents. It describes what has been tested and what has not. It is not a claim of WCAG conformance.
 
 ## Priorities
 
@@ -37,9 +37,9 @@ The static parts are guarded by tests in `tests/test_site.py`, which run on ever
 
 ## Reporting accessibility issues
 
-Use the form **[Accessibility barrier](https://github.com/0xRadikal/Free-Telegram-Proxy/issues/new?template=accessibility.yml)**. It asks what you were trying to do, the page, and what happened. Browser, device and assistive technology are optional but help us reproduce the problem. You never have to say anything about a disability. Screenshots are optional.
+Use the form **[Accessibility barrier](https://github.com/aMyNaR/Free-Telegram-Proxy/issues/new?template=accessibility.yml)**. It asks what you were trying to do, the page, and what happened. Browser, device and assistive technology are optional but help us reproduce the problem. You never have to say anything about a disability. Screenshots are optional.
 
-If you cannot use the GitHub form, post in [Discussions → Q&A](https://github.com/0xRadikal/Free-Telegram-Proxy/discussions/categories/q-a), or write to the Telegram channel [@Omnitrix_Network](https://t.me/Omnitrix_Network). English and Persian are both fine.
+If you cannot use the GitHub form, post in [Discussions → Q&A](https://github.com/aMyNaR/Free-Telegram-Proxy/discussions/categories/q-a), or write to the Telegram channel [@Omnitrix_Network](https://t.me/Omnitrix_Network). English and Persian are both fine.
 
 ### Severity
 
@@ -55,7 +55,7 @@ This is a single-maintainer, unpaid project, so there are no guaranteed timeline
 
 ## Ownership and maintenance
 
-The maintainer, [@0xRadikal](https://github.com/0xRadikal), owns accessibility for the site and the documents. Pull requests that touch `docs/` are reviewed against the expectations above. The evaluation table is re-run and its date updated after any redesign of the site, and at least once a year. If maintenance passes to someone else, this file passes with it.
+The maintainer, [@aMyNaR](https://github.com/aMyNaR), owns accessibility for the site and the documents. Pull requests that touch `docs/` are reviewed against the expectations above. The evaluation table is re-run and its date updated after any redesign of the site, and at least once a year. If maintenance passes to someone else, this file passes with it.
 
 ## Supported environments
 
@@ -70,4 +70,4 @@ The site is plain HTML, CSS and a small script. It is designed for current versi
 
 ## Feedback and improvements
 
-Suggestions about this statement or about how we test, such as tools, checklists or wording, are welcome in [Discussions → Ideas](https://github.com/0xRadikal/Free-Telegram-Proxy/discussions/categories/ideas) or as a pull request to this file. Please report an actual barrier with the form above, so it is tracked and labelled.
+Suggestions about this statement or about how we test, such as tools, checklists or wording, are welcome in [Discussions → Ideas](https://github.com/aMyNaR/Free-Telegram-Proxy/discussions/categories/ideas) or as a pull request to this file. Please report an actual barrier with the form above, so it is tracked and labelled.

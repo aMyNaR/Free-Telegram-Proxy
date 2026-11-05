@@ -3,18 +3,18 @@
 Public reference material only. Not a search ranking directive. No claim of universal availability.
 
 ## Human-readable references
-- [English home](https://0xradikal.github.io/Free-Telegram-Proxy/)
-- [فارسی](https://0xradikal.github.io/Free-Telegram-Proxy/fa/)
-- [Verification methodology](https://0xradikal.github.io/Free-Telegram-Proxy/methodology/)
-- [روش اعتبارسنجی](https://0xradikal.github.io/Free-Telegram-Proxy/fa/methodology/)
-- [Data and selection tiers](https://0xradikal.github.io/Free-Telegram-Proxy/data/)
-- [راهنمای داده‌ها](https://0xradikal.github.io/Free-Telegram-Proxy/fa/data/)
+- [English home](https://amynar.github.io/Free-Telegram-Proxy/)
+- [فارسی](https://amynar.github.io/Free-Telegram-Proxy/fa/)
+- [Verification methodology](https://amynar.github.io/Free-Telegram-Proxy/methodology/)
+- [روش اعتبارسنجی](https://amynar.github.io/Free-Telegram-Proxy/fa/methodology/)
+- [Data and selection tiers](https://amynar.github.io/Free-Telegram-Proxy/data/)
+- [راهنمای داده‌ها](https://amynar.github.io/Free-Telegram-Proxy/fa/data/)
 
 ## Primary evidence
-- [Source code](https://github.com/0xRadikal/Free-Telegram-Proxy)
-- [Live index](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/index.json)
-- [Data health](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/health.json)
-- [Recommended Top 100](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/top100.txt)
-- [README](https://github.com/0xRadikal/Free-Telegram-Proxy#readme)
+- [Source code](https://github.com/aMyNaR/Free-Telegram-Proxy)
+- [Live index](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/index.json)
+- [Data health](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/health.json)
+- [Recommended Top 100](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/top100.txt)
+- [README](https://github.com/aMyNaR/Free-Telegram-Proxy#readme)
 
 Verified means a real Telegram datacenter answered the tester in all required rounds, from the tester's location. It is not evidence that a connection works from every country or ISP.

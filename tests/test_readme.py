@@ -107,7 +107,7 @@ def test_links_to_readme_sections_point_at_existing_headings():
             continue
         s = f.read_text(encoding="utf-8")
         # only real links (href / markdown), not JSON-LD "@id" identifiers
-        for a in re.findall(r'(?:href="|\]\()https://github\.com/0xRadikal/Free-Telegram-Proxy#([\w-]+)', s):
+        for a in re.findall(r'(?:href="|\]\()https://github\.com/aMyNaR/Free-Telegram-Proxy#([\w-]+)', s):
             if a != "readme" and a not in anchors:   # #readme is GitHub's own README anchor
                 bad.append((f.relative_to(root).as_posix(), a))
     assert not bad, bad
@@ -158,7 +158,7 @@ def test_translations_match_the_english_readme():
 
 
 _GROW = {"channel": "https://t.me/Omnitrix_Network",
-         "star": "https://github.com/0xRadikal/Free-Telegram-Proxy"}
+         "star": "https://github.com/aMyNaR/Free-Telegram-Proxy"}
 
 
 def _cta_positions(s):

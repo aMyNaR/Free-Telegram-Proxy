@@ -18,7 +18,7 @@ from pathlib import Path
 from .netinfo import flag
 from .pipeline import Record, RunResult
 
-REPO = "0xRadikal/Free-Telegram-Proxy"
+REPO = "aMyNaR/Free-Telegram-Proxy"
 RAW = f"https://raw.githubusercontent.com/{REPO}/main"
 CDN = f"https://cdn.jsdelivr.net/gh/{REPO}@main"
 # `fast` is RELATIVE: the fastest quarter of `resilient`, measured from this

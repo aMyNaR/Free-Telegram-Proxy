@@ -19,7 +19,7 @@ import pytest
 
 ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
-BASE = "https://0xradikal.github.io/Free-Telegram-Proxy/"
+BASE = "https://amynar.github.io/Free-Telegram-Proxy/"
 PAGES = {"": "en", "fa/": "fa", "methodology/": "en", "fa/methodology/": "fa", "data/": "en", "fa/data/": "fa"}
 HOMES = {"": "en", "fa/": "fa"}
 PERSIAN = re.compile(r"[\u0600-\u06FF]")
@@ -276,7 +276,7 @@ def test_structured_data_parses_and_matches_visible_faq(rel, lang):
         ds = next(g for g in graph if g["@type"] == "Dataset")
         assert 50 <= len(ds["description"]) <= 5000 and ds["distribution"]
         for x in ds["distribution"]:
-            assert x["contentUrl"].startswith("https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/")
+            assert x["contentUrl"].startswith("https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/")
 
 
 @pytest.mark.parametrize("rel", [r for r in PAGES if r not in HOMES])

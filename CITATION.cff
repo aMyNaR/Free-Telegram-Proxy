@@ -9,8 +9,8 @@ abstract: >-
   Rebuilt about every 15 minutes on GitHub Actions.
 authors:
   - alias: "0xRadikal"
-repository-code: "https://github.com/0xRadikal/Free-Telegram-Proxy"
-url: "https://github.com/0xRadikal/Free-Telegram-Proxy"
+repository-code: "https://github.com/aMyNaR/Free-Telegram-Proxy"
+url: "https://github.com/aMyNaR/Free-Telegram-Proxy"
 license: MIT
 keywords:
   - telegram proxy

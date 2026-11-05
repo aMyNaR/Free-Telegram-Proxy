@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         Thank you. You do not need to tell us anything about a disability — describe what happened.
-        English or Persian is fine. See [ACCESSIBILITY.md](https://github.com/0xRadikal/Free-Telegram-Proxy/blob/main/ACCESSIBILITY.md).
+        English or Persian is fine. See [ACCESSIBILITY.md](https://github.com/aMyNaR/Free-Telegram-Proxy/blob/main/ACCESSIBILITY.md).
   - type: textarea
     id: task
     attributes:
@@ -17,7 +17,7 @@ body:
     id: page
     attributes:
       label: Page or file
-      placeholder: "https://0xradikal.github.io/Free-Telegram-Proxy/fa/"
+      placeholder: "https://amynar.github.io/Free-Telegram-Proxy/fa/"
     validations: {required: true}
   - type: textarea
     id: happened

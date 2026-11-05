@@ -1,28 +1,28 @@
 <div align="center">
-  <a href="https://0xradikal.github.io/Free-Telegram-Proxy/fa/"><picture><source media="(max-width: 600px)" srcset="assets/readme/hero-mobile.svg" /><img src="assets/readme/hero.svg" width="100%" alt="پروکسی رایگان تلگرام Omnitrix Network — لیست پروکسی MTProto تأییدشده؛ داشبورد زنده را باز کن" /></picture></a>
+  <a href="https://amynar.github.io/Free-Telegram-Proxy/fa/"><picture><source media="(max-width: 600px)" srcset="assets/readme/hero-mobile.svg" /><img src="assets/readme/hero.svg" width="100%" alt="پروکسی رایگان تلگرام Omnitrix Network — لیست پروکسی MTProto تأییدشده؛ داشبورد زنده را باز کن" /></picture></a>
 
   <p>
     <a href="https://t.me/Omnitrix_Network"><img src="assets/readme/cta-channel.svg" width="240" alt="عضویت در کانال @Omnitrix_Network" /></a>
-    <a href="https://github.com/0xRadikal/Free-Telegram-Proxy"><img src="assets/readme/cta-star.svg" width="240" alt="ستاره دادن در GitHub" /></a>
+    <a href="https://github.com/aMyNaR/Free-Telegram-Proxy"><img src="assets/readme/cta-star.svg" width="240" alt="ستاره دادن در GitHub" /></a>
   </p>
 
   <p>
-    <a href="https://github.com/0xRadikal/Free-Telegram-Proxy/actions/workflows/update.yml"><img alt="pipeline" src="https://img.shields.io/github/actions/workflow/status/0xRadikal/Free-Telegram-Proxy/update.yml?style=for-the-badge&amp;label=pipeline&amp;logo=githubactions&amp;logoColor=white" /></a>
+    <a href="https://github.com/aMyNaR/Free-Telegram-Proxy/actions/workflows/update.yml"><img alt="pipeline" src="https://img.shields.io/github/actions/workflow/status/aMyNaR/Free-Telegram-Proxy/update.yml?style=for-the-badge&amp;label=pipeline&amp;logo=githubactions&amp;logoColor=white" /></a>
     <img alt="به‌روزرسانی هر ۱۵ دقیقه" src="https://img.shields.io/badge/auto--update-every%2015%20min-247EFD?style=for-the-badge" />
     <a href="https://t.me/Omnitrix_Network"><img alt="تعداد اعضای کانال تلگرام" src="https://img.shields.io/endpoint?url=https%3A%2F%2Ftg.sumanjay.workers.dev%2FOmnitrix Network&amp;label=telegram&amp;color=229ED9&amp;style=for-the-badge&amp;logo=telegram&amp;logoColor=white" /></a>
-    <a href="https://github.com/0xRadikal/Free-Telegram-Proxy"><img alt="ستاره‌ها" src="https://img.shields.io/github/stars/0xRadikal/Free-Telegram-Proxy?style=for-the-badge&amp;color=FBBF24&amp;logo=github" /></a>
-    <a href="https://0xradikal.github.io/Free-Telegram-Proxy/fa/"><img alt="داشبورد زنده" src="https://img.shields.io/badge/live-dashboard-237efd?style=for-the-badge&amp;logo=githubpages&amp;logoColor=white" /></a>
+    <a href="https://github.com/aMyNaR/Free-Telegram-Proxy"><img alt="ستاره‌ها" src="https://img.shields.io/github/stars/aMyNaR/Free-Telegram-Proxy?style=for-the-badge&amp;color=FBBF24&amp;logo=github" /></a>
+    <a href="https://amynar.github.io/Free-Telegram-Proxy/fa/"><img alt="داشبورد زنده" src="https://img.shields.io/badge/live-dashboard-237efd?style=for-the-badge&amp;logo=githubpages&amp;logoColor=white" /></a>
   </p>
 
   <p dir="rtl"><i>همهٔ شمارنده‌های زیر هنگام باز کردن صفحه از <code>index.json</code> / <code>health.json</code> خود همین مخزن خوانده می‌شوند (shields.io و پراکسی تصویر GitHub ممکن است چند دقیقه کشش کنند):</i></p>
 
   <p>
-    <a href="https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/index.json"><img alt="لینک‌های تأییدشده" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2F0xRadikal%2FFree-Telegram-Proxy%2Fmain%2Findex.json&amp;query=%24.funnel.verified_links&amp;label=verified%20links&amp;color=16a34a&amp;style=for-the-badge" /></a>
-    <a href="https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/index.json"><img alt="سرورهای واقعی" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2F0xRadikal%2FFree-Telegram-Proxy%2Fmain%2Findex.json&amp;query=%24.funnel.verified_servers&amp;label=real%20servers&amp;color=247EFD&amp;style=for-the-badge" /></a>
-    <a href="https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/index.json"><img alt="resilient" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2F0xRadikal%2FFree-Telegram-Proxy%2Fmain%2Findex.json&amp;query=%24.tiers.resilient.count&amp;label=resilient&amp;color=7c3aed&amp;style=for-the-badge" /></a>
-    <a href="https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/index.json"><img alt="fast" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2F0xRadikal%2FFree-Telegram-Proxy%2Fmain%2Findex.json&amp;query=%24.tiers.fast.count&amp;label=fast&amp;color=f59e0b&amp;style=for-the-badge" /></a>
-    <a href="https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/health.json"><img alt="منابع" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2F0xRadikal%2FFree-Telegram-Proxy%2Fmain%2Fhealth.json&amp;query=%24.sources.length&amp;label=sources&amp;color=0891b2&amp;style=for-the-badge" /></a>
-    <img alt="آخرین به‌روزرسانی" src="https://img.shields.io/github/last-commit/0xRadikal/Free-Telegram-Proxy/main?style=for-the-badge&amp;color=334155&amp;label=updated" />
+    <a href="https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/index.json"><img alt="لینک‌های تأییدشده" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2F0xRadikal%2FFree-Telegram-Proxy%2Fmain%2Findex.json&amp;query=%24.funnel.verified_links&amp;label=verified%20links&amp;color=16a34a&amp;style=for-the-badge" /></a>
+    <a href="https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/index.json"><img alt="سرورهای واقعی" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2F0xRadikal%2FFree-Telegram-Proxy%2Fmain%2Findex.json&amp;query=%24.funnel.verified_servers&amp;label=real%20servers&amp;color=247EFD&amp;style=for-the-badge" /></a>
+    <a href="https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/index.json"><img alt="resilient" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2F0xRadikal%2FFree-Telegram-Proxy%2Fmain%2Findex.json&amp;query=%24.tiers.resilient.count&amp;label=resilient&amp;color=7c3aed&amp;style=for-the-badge" /></a>
+    <a href="https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/index.json"><img alt="fast" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2F0xRadikal%2FFree-Telegram-Proxy%2Fmain%2Findex.json&amp;query=%24.tiers.fast.count&amp;label=fast&amp;color=f59e0b&amp;style=for-the-badge" /></a>
+    <a href="https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/health.json"><img alt="منابع" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2F0xRadikal%2FFree-Telegram-Proxy%2Fmain%2Fhealth.json&amp;query=%24.sources.length&amp;label=sources&amp;color=0891b2&amp;style=for-the-badge" /></a>
+    <img alt="آخرین به‌روزرسانی" src="https://img.shields.io/github/last-commit/aMyNaR/Free-Telegram-Proxy/main?style=for-the-badge&amp;color=334155&amp;label=updated" />
   </p>
 
   <p>🇬🇧 <a href="README.md">English</a> · 🇷🇺 <a href="README_RU.md">Русская версия</a></p>
@@ -42,14 +42,14 @@
 
 ## 🚀 از این‌جا شروع کن — یک لمس یا یک خط
 
-**روی گوشی، کوتاه‌ترین راه [داشبورد زنده](https://0xradikal.github.io/Free-Telegram-Proxy/fa/) است:** هر ردیف مستقیم در تلگرام باز می‌شود؛ تلگرام مشخصات پروکسی را نشان می‌دهد و فقط کافی است «اتصال پروکسی» (Connect Proxy) را بزنی — بدون کپی کردن، بدون هیچ برنامه‌ای جز خود تلگرام.
+**روی گوشی، کوتاه‌ترین راه [داشبورد زنده](https://amynar.github.io/Free-Telegram-Proxy/fa/) است:** هر ردیف مستقیم در تلگرام باز می‌شود؛ تلگرام مشخصات پروکسی را نشان می‌دهد و فقط کافی است «اتصال پروکسی» (Connect Proxy) را بزنی — بدون کپی کردن، بدون هیچ برنامه‌ای جز خود تلگرام.
 
 **Top 100** کوتاه‌ترین لیست است: از `resilient` (از هر IP سرور فقط یک لینک) برداشته می‌شود، اول بر اساس **پایداری اثبات‌شده** و بعد بر اساس زمان رفت‌وبرگشت مرتب می‌شود، معمولاً از هر شبکه حداکثر ۵ لینک دارد — و تک‌تک خط‌هایش در **هر سه** دور تست، یک درخواست واقعی را به دیتاسنتر تلگرام رسانده‌اند.
 
 </div>
 
 ```text
-https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/top100.txt
+https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/top100.txt
 ```
 
 <div dir="rtl">
@@ -59,7 +59,7 @@ https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/top100.txt
 </div>
 
 ```text
-https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/resilient/tme.txt
+https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/resilient/tme.txt
 ```
 
 <a id="how-to-connect"></a>
@@ -70,7 +70,7 @@ https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/resilient/t
 
 این‌ها فهرست ساده‌ای از لینک‌اند، نه «اشتراک» (subscription) که در برنامه import شود.
 
-1. **اندروید و آیفون:** فایل [`top100.txt`](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/top100.txt) یا [`resilient/tme.txt`](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/resilient/tme.txt) را روی گوشی باز کن و روی یکی از خط‌ها بزن؛ تلگرام باز می‌شود — «اتصال پروکسی» (Connect Proxy) را بزن. اگر لینک قابل‌کلیک نبود، یک خط را در «پیام‌های ذخیره شده» (Saved Messages) بفرست و همان‌جا رویش بزن.
+1. **اندروید و آیفون:** فایل [`top100.txt`](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/top100.txt) یا [`resilient/tme.txt`](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/resilient/tme.txt) را روی گوشی باز کن و روی یکی از خط‌ها بزن؛ تلگرام باز می‌شود — «اتصال پروکسی» (Connect Proxy) را بزن. اگر لینک قابل‌کلیک نبود، یک خط را در «پیام‌های ذخیره شده» (Saved Messages) بفرست و همان‌جا رویش بزن.
 2. **تلگرام دسکتاپ (ویندوز، مک، لینوکس):** روی لینک `tg://proxy` یا `https://t.me/proxy` کلیک کن، یا از مسیر «تنظیمات ← پیشرفته ← نوع اتصال ← استفاده از پروکسی سفارشی ← افزودن پروکسی» (Settings ← Advanced ← Connection type ← Use custom proxy ← Add proxy) نوع MTProto را انتخاب کن.
 3. **اضافه کردن دستی در گوشی:** «تنظیمات ← داده‌ها و ذخیره‌سازی ← تنظیمات پروکسی ← افزودن پروکسی» (Settings ← Data and Storage ← Proxy Settings ← Add Proxy)، نوع MTProto، و بعد سرور، پورت و secret را وارد کن.
 4. **وصل نشد؟** خط بعدی را امتحان کن؛ فیلترینگ بعضی پروکسی‌ها را می‌بندد و بعضی را نه.
@@ -83,12 +83,12 @@ https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/resilient/t
 </div>
 
 <div align="center">
-<a href="https://0xradikal.github.io/Free-Telegram-Proxy/fa/"><img src="assets/readme/cta-dashboard.svg" width="240" alt="داشبورد زنده" /></a>
-<a href="https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/top100.txt"><img src="assets/readme/cta-top100.svg" width="240" alt="دریافت Top 100" /></a>
+<a href="https://amynar.github.io/Free-Telegram-Proxy/fa/"><img src="assets/readme/cta-dashboard.svg" width="240" alt="داشبورد زنده" /></a>
+<a href="https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/top100.txt"><img src="assets/readme/cta-top100.svg" width="240" alt="دریافت Top 100" /></a>
 <br><br>
 <b dir="rtl">📱 روی گوشی هستی؟ دوربین را روی یکی از این‌ها بگیر.</b>
 <br>
-<a href="https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/top100.txt"><img src="assets/readme/qr-top100.svg" width="180" alt="کد QR: لیست Top 100" /></a>
+<a href="https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/top100.txt"><img src="assets/readme/qr-top100.svg" width="180" alt="کد QR: لیست Top 100" /></a>
 <a href="https://t.me/Omnitrix_Network"><img src="assets/readme/qr-channel.svg" width="180" alt="کد QR: عضویت در @Omnitrix_Network" /></a>
 <br>
 <sub dir="rtl">هر کد QR دقیقاً همان نشانی لینک دور خودش است — کد Top 100 فایل زنده را باز می‌کند، نه یک نسخهٔ قدیمی و ثابت.</sub>
@@ -109,15 +109,15 @@ https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/resilient/t
 
 | دسته | چه چیزی واردش می‌شود | `tg://` | `t.me` | JSON |
 |:--|:--|:--:|:--:|:--:|
-| ⭐ **`top100`** | ۱۰۰ لینک از `resilient`: اول پروکسی‌های اثبات‌شده (معیار `stable`)، مرتب بر اساس پایداری اثبات‌شده و بعد RTT؛ از هر شبکه حداکثر ۵ تا، مگر این‌که لیست بدون آن پر نشود — *پیشنهادی* | [txt](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/top100.txt) | — | — |
-| 🛡️ **`resilient`** | `verified`، **از هر IP سرور یک لینک** (لینکی که طولانی‌ترین سابقهٔ بررسی را دارد) | [txt](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/resilient/tg.txt) | [txt](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/resilient/tme.txt) | [json](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/resilient/proxies.json) |
-| 📈 **`stable`** | `resilient` **و** حداقل ۹۰٪ بررسی‌های اخیرش را پاس کرده (حداقل ۱۲ بررسی) | [txt](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/stable/tg.txt) | [txt](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/stable/tme.txt) | [json](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/stable/proxies.json) |
-| ⚡ **`fast`** | سریع‌ترین ۲۵٪ از `resilient` بر اساس RTT از داخل پروکسی، **اندازه‌گیری‌شده از سرور تست** | [txt](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/fast/tg.txt) | [txt](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/fast/tme.txt) | [json](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/fast/proxies.json) |
-| 🏆 **`verified`** | در **هر ۳** دور یک درخواست واقعی MTProto را به دیتاسنتر تلگرام رسانده و nonce ما را برگردانده — همهٔ اسم‌های مستعار نگه داشته می‌شوند | [txt](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/verified/tg.txt) | [txt](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/verified/tme.txt) | [json](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/verified/proxies.json) |
-| 🎭 **`faketls`** | لینک‌های `verified` با secret نوع `ee` (FakeTLS)، از هر IP یکی | [txt](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/faketls/tg.txt) | [txt](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/faketls/tme.txt) | [json](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/faketls/proxies.json) |
-| 🔐 **`secure`** | لینک‌های `verified` با secret نوع `dd` (با padding تصادفی)، از هر IP یکی | [txt](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/secure/tg.txt) | [txt](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/secure/tme.txt) | [json](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/secure/proxies.json) |
-| 📦 **`classic`** | لینک‌های `verified` با secret معمولی ۱۶ بایتی، از هر IP یکی | [txt](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/classic/tg.txt) | [txt](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/classic/tme.txt) | [json](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/classic/proxies.json) |
-| 🌐 **`all`** | همهٔ لینک‌های جمع‌شده بدون تکرار — **حتی آن‌هایی که رد شدند** — فقط برای پژوهش | [txt](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/all/tg.txt) | — | — |
+| ⭐ **`top100`** | ۱۰۰ لینک از `resilient`: اول پروکسی‌های اثبات‌شده (معیار `stable`)، مرتب بر اساس پایداری اثبات‌شده و بعد RTT؛ از هر شبکه حداکثر ۵ تا، مگر این‌که لیست بدون آن پر نشود — *پیشنهادی* | [txt](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/top100.txt) | — | — |
+| 🛡️ **`resilient`** | `verified`، **از هر IP سرور یک لینک** (لینکی که طولانی‌ترین سابقهٔ بررسی را دارد) | [txt](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/resilient/tg.txt) | [txt](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/resilient/tme.txt) | [json](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/resilient/proxies.json) |
+| 📈 **`stable`** | `resilient` **و** حداقل ۹۰٪ بررسی‌های اخیرش را پاس کرده (حداقل ۱۲ بررسی) | [txt](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/stable/tg.txt) | [txt](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/stable/tme.txt) | [json](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/stable/proxies.json) |
+| ⚡ **`fast`** | سریع‌ترین ۲۵٪ از `resilient` بر اساس RTT از داخل پروکسی، **اندازه‌گیری‌شده از سرور تست** | [txt](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/fast/tg.txt) | [txt](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/fast/tme.txt) | [json](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/fast/proxies.json) |
+| 🏆 **`verified`** | در **هر ۳** دور یک درخواست واقعی MTProto را به دیتاسنتر تلگرام رسانده و nonce ما را برگردانده — همهٔ اسم‌های مستعار نگه داشته می‌شوند | [txt](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/verified/tg.txt) | [txt](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/verified/tme.txt) | [json](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/verified/proxies.json) |
+| 🎭 **`faketls`** | لینک‌های `verified` با secret نوع `ee` (FakeTLS)، از هر IP یکی | [txt](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/faketls/tg.txt) | [txt](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/faketls/tme.txt) | [json](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/faketls/proxies.json) |
+| 🔐 **`secure`** | لینک‌های `verified` با secret نوع `dd` (با padding تصادفی)، از هر IP یکی | [txt](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/secure/tg.txt) | [txt](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/secure/tme.txt) | [json](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/secure/proxies.json) |
+| 📦 **`classic`** | لینک‌های `verified` با secret معمولی ۱۶ بایتی، از هر IP یکی | [txt](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/classic/tg.txt) | [txt](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/classic/tme.txt) | [json](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/classic/proxies.json) |
+| 🌐 **`all`** | همهٔ لینک‌های جمع‌شده بدون تکرار — **حتی آن‌هایی که رد شدند** — فقط برای پژوهش | [txt](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/all/tg.txt) | — | — |
 
 **کدام فرمت؟** `tg.txt` لینک‌های `tg://proxy?…` دارد که اپ تلگرام مستقیم بازشان می‌کند. `tme.txt` همان لیست، با همان ترتیب، به شکل لینک وب `https://t.me/proxy?…` است — تقریباً هر جایی که نشانی اینترنتی قابل‌کلیک باشد کار می‌کند. `proxies.json` همان لیست به شکل ردیف‌های ساختاریافته است (`server`، `port`، `secret`، `type`، `ip`، `country`، `asn`، `asn_org`، `rtt_ms`، `uptime`، `checks`، `sources`). هر سه قبل از انتشار با هم تطبیق داده می‌شوند ([پایین‌تر](#release-checks) را ببین). فایل قدیمی `top50.txt` برای کاربران قبلی نگه داشته شده و دقیقاً ۵۰ خط اول `top100.txt` است.
 
@@ -127,30 +127,30 @@ https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/resilient/t
 
 ```text
 # ── top 100 — اثبات‌شده، پخش‌شده بین شبکه‌ها، پیشنهادی ─────────────────────────
-https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/top100.txt
+https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/top100.txt
 
 # ── resilient — تأییدشده، از هر IP سرور یک لینک ──────────────────────────────────
-https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/resilient/tg.txt
-https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/resilient/tme.txt
-https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/resilient/proxies.json
+https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/resilient/tg.txt
+https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/resilient/tme.txt
+https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/resilient/proxies.json
 
 # ── stable — resilient و حداقل ۹۰٪ بررسی‌های اخیر ────────────────────────────────
-https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/stable/tg.txt
-https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/stable/tme.txt
-https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/stable/proxies.json
+https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/stable/tg.txt
+https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/stable/tme.txt
+https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/stable/proxies.json
 
 # ── fast — سریع‌ترین یک‌چهارم resilient، از دید سرور تست ─────────────────────────
-https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/fast/tg.txt
-https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/fast/tme.txt
-https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/fast/proxies.json
+https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/fast/tg.txt
+https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/fast/tme.txt
+https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/fast/proxies.json
 
 # ── verified — هر ۳ دور را پاس کرده، همهٔ اسم‌های مستعار ──────────────────────────
-https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/verified/tg.txt
-https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/verified/tme.txt
-https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/verified/proxies.json
+https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/verified/tg.txt
+https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/verified/tme.txt
+https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/verified/proxies.json
 
 # ── all — همه، حتی ردشده‌ها (فقط پژوهش) ────────────────────────────────────────
-https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/all/tg.txt
+https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/all/tg.txt
 ```
 
 <div dir="rtl">
@@ -162,7 +162,7 @@ https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/all/tg.txt
 </div>
 
 ```text
-https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/countries/DE.txt
+https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/countries/DE.txt
 ```
 
 <div dir="rtl">
@@ -179,11 +179,11 @@ https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/countries/D
 
 | فایل | چیست |
 |:--|:--|
-| [`index.json`](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/index.json) | همهٔ شمارنده‌ها، زمان انتشار، محل تست، معیار انتخاب هر دسته و **نشانی همهٔ فایل‌ها** |
-| [`health.json`](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/health.json) | سلامت هر منبع، دلیل رد شدن هر لینک، نتیجهٔ هر دور، زمان هر مرحله و بزرگ‌ترین شبکه‌ها |
-| [`state.json`](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/state.json) | سابقهٔ قبول/رد هر پروکسی (حداکثر ۹۶ اجرا ≈ یک روز) و سابقهٔ بازدهی هر منبع |
-| [`top100.txt`](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/top100.txt) | ۱۰۰ لینک پیشنهادی (`top50.txt` = ۵۰ خط اولش) |
-| [`all/tg.txt`](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/all/tg.txt) | همهٔ لینک‌های جمع‌شده، عمداً قابل‌مشاهده — حتی ردشده‌ها |
+| [`index.json`](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/index.json) | همهٔ شمارنده‌ها، زمان انتشار، محل تست، معیار انتخاب هر دسته و **نشانی همهٔ فایل‌ها** |
+| [`health.json`](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/health.json) | سلامت هر منبع، دلیل رد شدن هر لینک، نتیجهٔ هر دور، زمان هر مرحله و بزرگ‌ترین شبکه‌ها |
+| [`state.json`](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/state.json) | سابقهٔ قبول/رد هر پروکسی (حداکثر ۹۶ اجرا ≈ یک روز) و سابقهٔ بازدهی هر منبع |
+| [`top100.txt`](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/top100.txt) | ۱۰۰ لینک پیشنهادی (`top50.txt` = ۵۰ خط اولش) |
+| [`all/tg.txt`](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/all/tg.txt) | همهٔ لینک‌های جمع‌شده، عمداً قابل‌مشاهده — حتی ردشده‌ها |
 | [`CITATION.cff`](CITATION.cff) | اطلاعات ارجاع برای پژوهش و پروژه‌های دیگر |
 
 </div>
@@ -194,12 +194,12 @@ https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/countries/D
 
 ## 🪞 آینهٔ jsDelivr — فقط اگر `raw.githubusercontent.com` فیلتر بود
 
-پیشوند `https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main` را با `https://cdn.jsdelivr.net/gh/0xRadikal/Free-Telegram-Proxy@main` عوض کن — همهٔ مسیرهای بالا روی آینه بدون تغییر وجود دارند (`index.json` هم آن را با کلید `mirror_prefix` اعلام می‌کند).
+پیشوند `https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main` را با `https://cdn.jsdelivr.net/gh/aMyNaR/Free-Telegram-Proxy@main` عوض کن — همهٔ مسیرهای بالا روی آینه بدون تغییر وجود دارند (`index.json` هم آن را با کلید `mirror_prefix` اعلام می‌کند).
 
 </div>
 
 ```
-https://cdn.jsdelivr.net/gh/0xRadikal/Free-Telegram-Proxy@main/top100.txt
+https://cdn.jsdelivr.net/gh/aMyNaR/Free-Telegram-Proxy@main/top100.txt
 ```
 
 <div dir="rtl">
@@ -484,7 +484,7 @@ rolling squash تاریخچه را محدود می‌کند؛ قطعی بودن 
 </div>
 
 ```
-https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/index.json
+https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/index.json
 ```
 
 <div dir="rtl">
@@ -495,7 +495,7 @@ https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/index.json
 
 ```bash
 # Inspect the current metadata. Read the returned file URLs instead of guessing paths.
-curl -fsSL https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/index.json \
+curl -fsSL https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/index.json \
   | python -m json.tool
 ```
 
@@ -514,7 +514,7 @@ curl -fsSL https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/
 </div>
 
 ```
-https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/health.json
+https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/health.json
 ```
 
 <div dir="rtl">
@@ -554,9 +554,9 @@ https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/health.json
 
 ## 📈 داشبورد زنده
 
-**<https://0xradikal.github.io/Free-Telegram-Proxy/fa/>** · [English](https://0xradikal.github.io/Free-Telegram-Proxy/)
+**<https://amynar.github.io/Free-Telegram-Proxy/fa/>** · [English](https://amynar.github.io/Free-Telegram-Proxy/)
 
-یک صفحهٔ ایستا که `index.json` و `proxies.json` دستهٔ انتخاب‌شده را در مرورگر خودت می‌گیرد و پروکسی‌های یک‌لمسی را با فیلتر کشور و آخرین قیف تست نشان می‌دهد. هیچ ردیاب، تبلیغ یا فونت شخص ثالثی بارگذاری نمی‌کند — به‌جز خود صفحه، درخواست‌ها فقط به سرورهای داده می‌روند — و اگر raw در دسترس نباشد، همان فایل‌ها را از آینهٔ jsDelivr می‌خواند، قفل‌شده روی آخرین کامیت (با یک درخواست ناشناس به `api.github.com` برای شناسهٔ کامیت)، تا آینه هیچ‌وقت چند ساعت عقب نباشد. [روش بررسی](https://0xradikal.github.io/Free-Telegram-Proxy/fa/methodology/) و [راهنمای داده‌ها](https://0xradikal.github.io/Free-Telegram-Proxy/fa/data/) همهٔ قاعده‌ها را با جزئیات توضیح می‌دهند.
+یک صفحهٔ ایستا که `index.json` و `proxies.json` دستهٔ انتخاب‌شده را در مرورگر خودت می‌گیرد و پروکسی‌های یک‌لمسی را با فیلتر کشور و آخرین قیف تست نشان می‌دهد. هیچ ردیاب، تبلیغ یا فونت شخص ثالثی بارگذاری نمی‌کند — به‌جز خود صفحه، درخواست‌ها فقط به سرورهای داده می‌روند — و اگر raw در دسترس نباشد، همان فایل‌ها را از آینهٔ jsDelivr می‌خواند، قفل‌شده روی آخرین کامیت (با یک درخواست ناشناس به `api.github.com` برای شناسهٔ کامیت)، تا آینه هیچ‌وقت چند ساعت عقب نباشد. [روش بررسی](https://amynar.github.io/Free-Telegram-Proxy/fa/methodology/) و [راهنمای داده‌ها](https://amynar.github.io/Free-Telegram-Proxy/fa/data/) همهٔ قاعده‌ها را با جزئیات توضیح می‌دهند.
 
 </div>
 
@@ -599,8 +599,8 @@ cron مربوط به `schedule:` در GitHub بدون تضمین است و در 
 
 | | |
 |:--|:--|
-| 🐛 **منبع خراب یا پروکسی بد پیدا کردی؟** | یک [issue](https://github.com/0xRadikal/Free-Telegram-Proxy/issues) باز کن — فرم‌ها در `.github/` هستند |
-| 💬 **پرسش** | [GitHub Discussions](https://github.com/0xRadikal/Free-Telegram-Proxy/discussions) · [`SUPPORT.md`](SUPPORT.md) |
+| 🐛 **منبع خراب یا پروکسی بد پیدا کردی؟** | یک [issue](https://github.com/aMyNaR/Free-Telegram-Proxy/issues) باز کن — فرم‌ها در `.github/` هستند |
+| 💬 **پرسش** | [GitHub Discussions](https://github.com/aMyNaR/Free-Telegram-Proxy/discussions) · [`SUPPORT.md`](SUPPORT.md) |
 | 🔐 **سیاست امنیتی** | [`SECURITY.md`](SECURITY.md) — خصوصی گزارش کن، نه در issue عمومی |
 | 📐 **راهنمای مشارکت** | [`CONTRIBUTING.md`](CONTRIBUTING.md) · [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) |
 | ♿ **دسترس‌پذیری** | [`ACCESSIBILITY.md`](ACCESSIBILITY.md) — چه چیزی تست می‌شود، محدودیت‌های شناخته‌شده، چطور مانع را گزارش کنی |
@@ -618,7 +618,7 @@ cron مربوط به `schedule:` در GitHub بدون تضمین است و در 
 </div>
 
 ```bash
-git clone https://github.com/0xRadikal/Free-Telegram-Proxy.git
+git clone https://github.com/aMyNaR/Free-Telegram-Proxy.git
 cd Free-Telegram-Proxy
 python -m pip install -r requirements.txt
 python -m tgproxy --out ./output          # --rounds 3 --gap 20 by default
@@ -674,7 +674,7 @@ python -m tgproxy --out ./output          # --rounds 3 --gap 20 by default
 <details>
 <summary><strong>raw.githubusercontent.com فیلتر است؛ از کجا بگیرم؟</strong></summary>
 
-همان مسیر را روی jsDelivr باز کن: `https://cdn.jsdelivr.net/gh/0xRadikal/Free-Telegram-Proxy@main/top100.txt` — جزئیات و میزان تأخیر کش در بخش [آینهٔ jsDelivr](#mirror) آمده است.
+همان مسیر را روی jsDelivr باز کن: `https://cdn.jsdelivr.net/gh/aMyNaR/Free-Telegram-Proxy@main/top100.txt` — جزئیات و میزان تأخیر کش در بخش [آینهٔ jsDelivr](#mirror) آمده است.
 
 </details>
 
@@ -706,7 +706,7 @@ python -m tgproxy --out ./output          # --rounds 3 --gap 20 by default
 
 هر منبع قبل از اضافه شدن دانلود و اندازه‌گیری شد. لیست‌هایی که اندازه‌گیری شدند و اضافه **نشدند** — چون بایت‌به‌بایت با منبع دیگری یکسان بودند، هیچ سروری نداشتند که منابع دیگر نداشته باشند، رمزنگاری‌شده بودند، کلاینت غیرمرورگر را مسدود می‌کردند یا دیگر وجود ندارند — با دلیلشان در انتهای [`tgproxy/sources.py`](tgproxy/sources.py) فهرست شده‌اند تا کسی اشتباهی دوباره اضافه‌شان نکند.
 
-این مخزن فقط پروکسی‌های عمومی را جمع می‌کند، تکراری‌ها را حذف می‌کند و تست می‌کند. فهرست معتبر و همیشه به‌روز منابع با سلامت هر کدام در [`health.json`](https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/health.json) است — به آن فایل بیشتر از هر نامی که این‌جا نوشته شده اعتماد کن.
+این مخزن فقط پروکسی‌های عمومی را جمع می‌کند، تکراری‌ها را حذف می‌کند و تست می‌کند. فهرست معتبر و همیشه به‌روز منابع با سلامت هر کدام در [`health.json`](https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/health.json) است — به آن فایل بیشتر از هر نامی که این‌جا نوشته شده اعتماد کن.
 
 ## 📜 سلب مسئولیت
 
@@ -723,7 +723,7 @@ python -m tgproxy --out ./output          # --rounds 3 --gap 20 by default
 <p dir="rtl">این‌جا نه ثبت‌نام هست، نه تبلیغ، نه دیوار پرداخت. چیزی که واقعاً این پروژه را زنده نگه می‌دارد برای تو هیچ هزینه‌ای ندارد:</p>
 
 <a href="https://t.me/Omnitrix_Network"><img src="assets/readme/cta-channel.svg" width="240" alt="عضویت در کانال @Omnitrix_Network" /></a>
-<a href="https://github.com/0xRadikal/Free-Telegram-Proxy"><img src="assets/readme/cta-star.svg" width="240" alt="ستاره دادن در GitHub" /></a>
+<a href="https://github.com/aMyNaR/Free-Telegram-Proxy"><img src="assets/readme/cta-star.svg" width="240" alt="ستاره دادن در GitHub" /></a>
 
 <table dir="rtl">
 <tr>
@@ -744,8 +744,8 @@ python -m tgproxy --out ./output          # --rounds 3 --gap 20 by default
 <picture><img src="assets/readme/divider.svg" width="100%" alt="" /></picture>
 <div align="center" dir="rtl">
 
-**کانال:** [‎@Omnitrix_Network](https://t.me/Omnitrix_Network) · **داشبورد:** [پروکسی‌های زنده](https://0xradikal.github.io/Free-Telegram-Proxy/fa/)
+**کانال:** [‎@Omnitrix_Network](https://t.me/Omnitrix_Network) · **داشبورد:** [پروکسی‌های زنده](https://amynar.github.io/Free-Telegram-Proxy/fa/)
 
-<sub>هر عددی که در متن این README نوشته شده یک عکس تاریخ‌دار است. عددهای زنده همیشه در <a href="https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/index.json"><code>index.json</code></a> و <a href="https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/health.json"><code>health.json</code></a> هستند.</sub>
+<sub>هر عددی که در متن این README نوشته شده یک عکس تاریخ‌دار است. عددهای زنده همیشه در <a href="https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/index.json"><code>index.json</code></a> و <a href="https://raw.githubusercontent.com/aMyNaR/Free-Telegram-Proxy/main/health.json"><code>health.json</code></a> هستند.</sub>
 
 </div>

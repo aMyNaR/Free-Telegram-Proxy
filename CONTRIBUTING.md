@@ -9,7 +9,7 @@ Every claim in this repository is measured, not assumed. If you change how proxi
 ## Set up
 
 ```bash
-git clone https://github.com/0xRadikal/Free-Telegram-Proxy.git
+git clone https://github.com/aMyNaR/Free-Telegram-Proxy.git
 cd Free-Telegram-Proxy
 python3.12 -m venv .venv && . .venv/bin/activate      # CI uses Python 3.12
 pip install -r requirements.txt -r requirements-dev.txt

@@ -10,7 +10,7 @@ import aiohttp
 from .links import Proxy, extract
 from .sources import Source
 
-UA = "Mozilla/5.0 (X11; Linux x86_64) Free-Telegram-Proxy (+https://github.com/0xRadikal/Free-Telegram-Proxy)"
+UA = "Mozilla/5.0 (X11; Linux x86_64) Free-Telegram-Proxy (+https://github.com/aMyNaR/Free-Telegram-Proxy)"
 MAX_BYTES = 8 * 1024 * 1024
 
 

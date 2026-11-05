@@ -2,7 +2,7 @@
 
 ## Reporting a vulnerability
 
-Report privately through GitHub's form: **[Report a vulnerability](https://github.com/0xRadikal/Free-Telegram-Proxy/security/advisories/new)** (Security tab → *Report a vulnerability*). Do not open a public issue, discussion or pull request for a vulnerability.
+Report privately through GitHub's form: **[Report a vulnerability](https://github.com/aMyNaR/Free-Telegram-Proxy/security/advisories/new)** (Security tab → *Report a vulnerability*). Do not open a public issue, discussion or pull request for a vulnerability.
 
 Useful to include: what an attacker can do, the affected file or workflow, steps or a proof of concept, and whether it is already public. You can write in English or Persian.
 
@@ -17,7 +17,7 @@ Only `main` is supported. There are no releases: the code runs from `main` on Gi
 In scope:
 
 - Code in `tgproxy/`, `tools/` and `templates/`, and the workflows in `.github/workflows/`. Examples: a source can inject content into the published files or the README; a workflow token can be misused or leaked; a crafted link makes the pipeline connect to a private network.
-- The site in `docs/` (https://0xradikal.github.io/Free-Telegram-Proxy/). Examples: third-party proxy data executing as HTML or script.
+- The site in `docs/` (https://amynar.github.io/Free-Telegram-Proxy/). Examples: third-party proxy data executing as HTML or script.
 
 Out of scope (report to the owner instead):
 

@@ -20,7 +20,7 @@ import time
 import urllib.error
 import urllib.request
 
-REPO = os.environ.get("TGPROXY_REPO", "0xRadikal/Free-Telegram-Proxy")
+REPO = os.environ.get("TGPROXY_REPO", "aMyNaR/Free-Telegram-Proxy")
 EVENT = os.environ.get("TGPROXY_EVENT", "update-now")
 TOKEN_FILE = os.environ.get("TGPROXY_TOKEN_FILE", "/etc/tgproxy-trigger/token")
 ATTEMPTS = 4
