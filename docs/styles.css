@@ -460,3 +460,42 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 .floating-note{transform:translateZ(36px)}
 .float-coordinate{transform:translateZ(28px)}
 .site-top .hero-visual .signal-flow{filter:drop-shadow(0 0 6px rgba(120,200,255,.35))}
+
+/* ======= Ocean Polish v2 (premium depth, glass & glow) ======= */
+/* Aura around the emblem */
+.brand-stage img{filter:drop-shadow(0 0 30px rgba(84,198,255,.28))}
+/* Drifting depth layers (composited only) */
+.hero-mesh{translate:0 0;animation:heroDrift 26s ease-in-out infinite alternate}
+.hero-noise{animation:breathGlow 9s ease-in-out infinite alternate}
+.hero-sheen{display:inline-block;animation:sheenPulse 7s ease-in-out infinite}
+@keyframes heroDrift{from{translate:-20px -12px}to{translate:24px 16px}}
+@keyframes breathGlow{from{opacity:.3}to{opacity:.72}}
+@keyframes sheenPulse{0%,100%{opacity:.5}50%{opacity:1}}
+/* Glassmorphism cards */
+.stat-item,.method-card,.seo-fact-grid article,.proxy-card{
+  background:linear-gradient(160deg,rgba(13,34,64,.78),rgba(8,25,48,.92));
+  -webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);
+}
+.stat-item::after,.method-card::after,.seo-fact-grid article::after,.proxy-card::after{
+  content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;
+  background:radial-gradient(120% 60% at 15% 0%,rgba(120,205,255,.13),transparent 55%);
+}
+.stat-item,.method-card,.seo-fact-grid article,.proxy-card{border-color:rgba(127,196,255,.22)}
+.workspace{background:linear-gradient(165deg,rgba(12,30,58,.72),rgba(7,22,42,.94));box-shadow:0 24px 70px rgba(0,0,0,.5)}
+/* Button glow */
+.btn{position:relative;box-shadow:0 8px 26px rgba(0,0,0,.35)}
+.btn-white{box-shadow:0 8px 28px rgba(71,194,255,.22)}
+.btn::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:radial-gradient(120% 90% at 50% 0%,rgba(150,215,255,.28),transparent 60%);animation:buttonGlow 5s ease-in-out infinite;opacity:.55}
+@keyframes buttonGlow{0%,100%{opacity:.35}50%{opacity:.8}}
+/* Gradient headings */
+.section-heading h2,.method-heading h2{
+  background:linear-gradient(92deg,#EAF4FF 10%,#7FC4FF 50%,#EAF4FF 90%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+/* Active tier / connect buttons with cyan gradient */
+.tier-btn[aria-pressed="true"]{background:linear-gradient(100deg,#1F6FE8,#2C88FF)!important;box-shadow:0 0 0 4px rgba(71,194,255,.18),0 8px 22px rgba(31,111,232,.35)}
+.cell-connect{background:linear-gradient(100deg,#166BE0,#2C88FF);box-shadow:0 6px 18px rgba(31,111,232,.3)}
+/* Table row accent */
+.data-table tbody tr:hover td:first-child{box-shadow:inset 3px 0 0 #47C2FF}
+/* Footer depth */
+.site-footer{background:linear-gradient(180deg,#060E1C,#04101E)}
