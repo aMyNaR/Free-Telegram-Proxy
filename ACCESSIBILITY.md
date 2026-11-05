@@ -39,7 +39,7 @@ The static parts are guarded by tests in `tests/test_site.py`, which run on ever
 
 Use the form **[Accessibility barrier](https://github.com/0xRadikal/Free-Telegram-Proxy/issues/new?template=accessibility.yml)**. It asks what you were trying to do, the page, and what happened. Browser, device and assistive technology are optional but help us reproduce the problem. You never have to say anything about a disability. Screenshots are optional.
 
-If you cannot use the GitHub form, post in [Discussions → Q&A](https://github.com/0xRadikal/Free-Telegram-Proxy/discussions/categories/q-a), or write to the Telegram channel [@Raydikalx](https://t.me/Raydikalx). English and Persian are both fine.
+If you cannot use the GitHub form, post in [Discussions → Q&A](https://github.com/0xRadikal/Free-Telegram-Proxy/discussions/categories/q-a), or write to the Telegram channel [@Omnitrix_Network](https://t.me/Omnitrix_Network). English and Persian are both fine.
 
 ### Severity
 

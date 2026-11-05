@@ -24,7 +24,7 @@ html[dir="rtl"] body{font-family:Tahoma,"Vazirmatn",Arial,sans-serif}html[dir="r
 
 
 /* ======= motion.css : preserved upstream styling ======= */
-/* Raydikalx Motion System v3. All motion effects can be disabled. */
+/* Omnitrix Network Motion System v3. All motion effects can be disabled. */
 :root{--page:#f4f7ff;--ink:#111d39;--blue:#247efd;--blue-strong:#135be7;--soft:#eff2f9;--edge:#e3eaf7;--arc:cubic-bezier(.2,.9,.22,1);--ease:cubic-bezier(.3,.7,.2,1)}
 html{scroll-behavior:smooth}body{font-family:Manrope,Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--page);letter-spacing:-.014em}html[lang="fa"] body{font-family:Estedad,"Noto Sans Arabic UI","Noto Sans Arabic",Tahoma,sans-serif;letter-spacing:0}html[lang="fa"]{font-synthesis:none}
 /* Top rail & hero: original logo is unchanged and the visual system orbits around it. */
@@ -154,7 +154,7 @@ html[lang="fa"] button,html[lang="fa"] input,html[lang="fa"] select{font-family:
 
 
 /* ======= brand-alignment.css : preserved upstream styling ======= */
-/* Raydikalx brand-alignment audit v3.1 — evidence-based non-destructive visual overrides.
+/* Omnitrix Network brand-alignment audit v3.1 — evidence-based non-destructive visual overrides.
    The original artwork remains byte-for-byte and pixel-for-pixel identical. */
 :root{--brand-blue:#2C78F8;--brand-blue-alt:#247EFD;--brand-white:#EFF2F9}
 /* Brand electric-blue background; darker on the copy side to preserve small white text contrast.
@@ -214,7 +214,7 @@ html[lang="fa"] .stat-k{font-size:12.5px}
 /* ======= V3.2 verified corrections ======= */
 
 /*
- * Raydikalx V3.2 / verified brand and scroll refinements
+ * Omnitrix Network V3.2 / verified brand and scroll refinements
  * Brand source: supplied 1254px PNG, kept losslessly identical in appearance.
  * This layer deliberately changes presentation only: no proxy verification algorithm.
  */

@@ -146,7 +146,7 @@ publish (rolling squash روی main، مثل Free-v2ray-Configs)
 - [ ] امکان runner در منطقه‌ی دیگر
 
 ### فاز 7 — کانال و جامعه
-- [ ] پست خودکار بهترین‌ها در @Raydikalx
+- [ ] پست خودکار بهترین‌ها در @Omnitrix_Network
 - [ ] issue template برای گزارش پروکسی خراب
 
 ---

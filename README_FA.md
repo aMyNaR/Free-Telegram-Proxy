@@ -1,16 +1,15 @@
 <div align="center">
-  <a href="https://0xradikal.github.io/Free-Telegram-Proxy/fa/"><picture><source media="(max-width: 600px)" srcset="assets/readme/hero-mobile.svg" /><img src="assets/readme/hero.svg" width="100%" alt="پروکسی رایگان تلگرام Raydikalx — لیست پروکسی MTProto تأییدشده؛ داشبورد زنده را باز کن" /></picture></a>
+  <a href="https://0xradikal.github.io/Free-Telegram-Proxy/fa/"><picture><source media="(max-width: 600px)" srcset="assets/readme/hero-mobile.svg" /><img src="assets/readme/hero.svg" width="100%" alt="پروکسی رایگان تلگرام Omnitrix Network — لیست پروکسی MTProto تأییدشده؛ داشبورد زنده را باز کن" /></picture></a>
 
   <p>
-    <a href="https://t.me/Raydikalx"><img src="assets/readme/cta-channel.svg" width="240" alt="عضویت در کانال @Raydikalx" /></a>
-    <a href="https://t.me/configexBot"><img src="assets/readme/cta-bot.svg" width="240" alt="باز کردن ربات @configexBot" /></a>
+    <a href="https://t.me/Omnitrix_Network"><img src="assets/readme/cta-channel.svg" width="240" alt="عضویت در کانال @Omnitrix_Network" /></a>
     <a href="https://github.com/0xRadikal/Free-Telegram-Proxy"><img src="assets/readme/cta-star.svg" width="240" alt="ستاره دادن در GitHub" /></a>
   </p>
 
   <p>
     <a href="https://github.com/0xRadikal/Free-Telegram-Proxy/actions/workflows/update.yml"><img alt="pipeline" src="https://img.shields.io/github/actions/workflow/status/0xRadikal/Free-Telegram-Proxy/update.yml?style=for-the-badge&amp;label=pipeline&amp;logo=githubactions&amp;logoColor=white" /></a>
     <img alt="به‌روزرسانی هر ۱۵ دقیقه" src="https://img.shields.io/badge/auto--update-every%2015%20min-247EFD?style=for-the-badge" />
-    <a href="https://t.me/Raydikalx"><img alt="تعداد اعضای کانال تلگرام" src="https://img.shields.io/endpoint?url=https%3A%2F%2Ftg.sumanjay.workers.dev%2FRaydikalx&amp;label=telegram&amp;color=229ED9&amp;style=for-the-badge&amp;logo=telegram&amp;logoColor=white" /></a>
+    <a href="https://t.me/Omnitrix_Network"><img alt="تعداد اعضای کانال تلگرام" src="https://img.shields.io/endpoint?url=https%3A%2F%2Ftg.sumanjay.workers.dev%2FOmnitrix Network&amp;label=telegram&amp;color=229ED9&amp;style=for-the-badge&amp;logo=telegram&amp;logoColor=white" /></a>
     <a href="https://github.com/0xRadikal/Free-Telegram-Proxy"><img alt="ستاره‌ها" src="https://img.shields.io/github/stars/0xRadikal/Free-Telegram-Proxy?style=for-the-badge&amp;color=FBBF24&amp;logo=github" /></a>
     <a href="https://0xradikal.github.io/Free-Telegram-Proxy/fa/"><img alt="داشبورد زنده" src="https://img.shields.io/badge/live-dashboard-237efd?style=for-the-badge&amp;logo=githubpages&amp;logoColor=white" /></a>
   </p>
@@ -90,65 +89,10 @@ https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/resilient/t
 <b dir="rtl">📱 روی گوشی هستی؟ دوربین را روی یکی از این‌ها بگیر.</b>
 <br>
 <a href="https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/top100.txt"><img src="assets/readme/qr-top100.svg" width="180" alt="کد QR: لیست Top 100" /></a>
-<a href="https://t.me/configexBot"><img src="assets/readme/qr-bot.svg" width="180" alt="کد QR: باز کردن @configexBot" /></a>
-<a href="https://t.me/Raydikalx"><img src="assets/readme/qr-channel.svg" width="180" alt="کد QR: عضویت در @Raydikalx" /></a>
+<a href="https://t.me/Omnitrix_Network"><img src="assets/readme/qr-channel.svg" width="180" alt="کد QR: عضویت در @Omnitrix_Network" /></a>
 <br>
 <sub dir="rtl">هر کد QR دقیقاً همان نشانی لینک دور خودش است — کد Top 100 فایل زنده را باز می‌کند، نه یک نسخهٔ قدیمی و ثابت.</sub>
 </div>
-
-<a id="sister-project"></a>
-
-<div dir="rtl">
-
-## 🧩 پروژهٔ خواهر — کانفیگ رایگان V2Ray
-
-</div>
-
-<a href="https://github.com/0xRadikal/Free-v2ray-Configs"><picture><source media="(max-width: 600px)" srcset="assets/readme/promo-v2ray-mobile.svg" /><img src="assets/readme/promo-v2ray.svg" width="100%" alt="پروژهٔ خواهر Free V2Ray Configs: کانفیگ رایگان VLESS، VMess، Trojan، Shadowsocks و Reality که سه بار تست شده‌اند — در GitHub باز کن" /></picture></a>
-
-<div align="center">
-  <a href="https://github.com/0xRadikal/Free-v2ray-Configs"><img alt="ستاره‌های Free-v2ray-Configs" src="https://img.shields.io/github/stars/0xRadikal/Free-v2ray-Configs?style=for-the-badge&amp;color=FBBF24&amp;logo=github&amp;label=Free-v2ray-Configs" /></a>
-  <a href="https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/index.json"><img alt="تعداد کانفیگ‌های V2Ray" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2F0xRadikal%2FFree-v2ray-Configs%2Fmain%2Findex.json&amp;query=%24.categories.all.unique&amp;label=configs&amp;color=2563eb&amp;style=for-the-badge" /></a>
-  <a href="https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/health.json"><img alt="کانفیگ‌های تأییدشدهٔ V2Ray" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2F0xRadikal%2FFree-v2ray-Configs%2Fmain%2Fhealth.json&amp;query=%24.cascade.buckets.verified&amp;label=verified&amp;color=16a34a&amp;style=for-the-badge" /></a>
-</div>
-
-<div dir="rtl">
-
-پروکسی MTProto **فقط تلگرام** را رد می‌کند. برای بقیهٔ برنامه‌های گوشی و کامپیوتر، همین نویسنده پروژهٔ **[Free-v2ray-Configs](https://github.com/0xRadikal/Free-v2ray-Configs/blob/main/README_FA.md)** را نگه می‌دارد — با همان اصول: از منابع عمومی جمع می‌شود، تکراری‌ها حذف می‌شوند، هر کانفیگ **سه بار** با یک درخواست واقعی تست می‌شود و تقریباً هر ۱۵ دقیقه روی `main` منتشر می‌شود؛ با [داشبورد زندهٔ](https://0xradikal.github.io/Free-v2ray-Configs/) خودش. کوتاه‌ترین مسیرش (برای v2rayNG، Hiddify، NekoBox و …):
-
-</div>
-
-```text
-https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/top100.txt
-```
-
-<div dir="rtl">
-
-<details>
-<summary><b>پروکسی تلگرام یا کانفیگ V2Ray — کدام را لازم دارم؟</b></summary>
-
-| | Free Telegram Proxy (همین مخزن) | Free V2Ray Configs |
-|:--|:--|:--|
-| **چه چیزی را رد می‌کند** | فقط ترافیک تلگرام | همهٔ ترافیک دستگاه یا برنامه‌ای که از کلاینت عبور کند |
-| **پروتکل‌ها** | MTProto — معمولی، `dd`، `ee` (FakeTLS) | VLESS، VMess، Trojan، Shadowsocks، Hysteria2، TUIC، … |
-| **چه لازم داری** | فقط تلگرام | یک کلاینت مثل v2rayNG، Hiddify، NekoBox، v2rayN، Clash Meta یا Shadowrocket |
-| **اثبات کار کردن** | رساندن `req_pq_multi` به دیتاسنتر تلگرام، ۳ دور | یک درخواست HTTP واقعی از داخل پروکسی، ۳ دور؛ فایل‌های Clash و sing-box با خود باینری‌های واقعی و نسخه‌ثابت `sing-box` و `mihomo` بررسی می‌شوند |
-| **فرمت‌ها** | `tg.txt` · `tme.txt` · `proxies.json` | `configs.txt` · `configs_base64.txt` · `clash.yaml` · `singbox.json` |
-
-اشتراک کامل کانفیگ‌های تأییدشده:
-
-```text
-https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/verified/configs_base64.txt
-```
-
-همین هشدار آن‌جا هم صدق می‌کند: «تأییدشده» یعنی از سرور تست همان پروژه کار کرده، نه لزوماً از شبکهٔ تو.
-
-</details>
-
-ربات **[‎@configexBot](https://t.me/configexBot)** هم ربات استخراج کانفیگ رایگان V2Ray است، داخل خود تلگرام؛ و خبرها و آپدیت‌های هر دو پروژه در کانال **[‎@Raydikalx](https://t.me/Raydikalx)** منتشر می‌شود.
-
-</div>
-
 <picture><img src="assets/readme/divider.svg" width="100%" alt="" /></picture>
 
 <a id="tiers"></a><a id="choose-the-right-list"></a>
@@ -287,7 +231,7 @@ workflow بعد از هر انتشار، کش پرکاربردترین فایل�
 
 <a id="why-this-project-exists"></a>
 
-<p align="center"><img src="assets/readme/principles.svg" width="100%" alt="سه اصل مهندسی Raydikalx: تأیید، تنوع، شفافیت" /></p>
+<p align="center"><img src="assets/readme/principles.svg" width="100%" alt="سه اصل مهندسی Omnitrix Network: تأیید، تنوع، شفافیت" /></p>
 
 <div dir="rtl">
 
@@ -788,27 +732,20 @@ python -m tgproxy --out ./output          # --rounds 3 --gap 20 by default
 
 <div align="center">
 
-<h2 dir="rtl">سه لمس که این پروژه را زنده نگه می‌دارد</h2>
+<h2 dir="rtl">این پروژه را با یک لمس زنده نگه دار</h2>
 
-<p dir="rtl">این‌جا نه ثبت‌نام هست، نه تبلیغ، نه دیوار پرداخت. سه چیزی که واقعاً این پروژه را زنده نگه می‌دارد برای تو هیچ هزینه‌ای ندارد:</p>
+<p dir="rtl">این‌جا نه ثبت‌نام هست، نه تبلیغ، نه دیوار پرداخت. چیزی که واقعاً این پروژه را زنده نگه می‌دارد برای تو هیچ هزینه‌ای ندارد:</p>
 
-<a href="https://t.me/Raydikalx"><img src="assets/readme/cta-channel.svg" width="240" alt="عضویت در کانال @Raydikalx" /></a>
-<a href="https://t.me/configexBot"><img src="assets/readme/cta-bot.svg" width="240" alt="باز کردن ربات @configexBot" /></a>
+<a href="https://t.me/Omnitrix_Network"><img src="assets/readme/cta-channel.svg" width="240" alt="عضویت در کانال @Omnitrix_Network" /></a>
 <a href="https://github.com/0xRadikal/Free-Telegram-Proxy"><img src="assets/readme/cta-star.svg" width="240" alt="ستاره دادن در GitHub" /></a>
 
 <table dir="rtl">
 <tr>
 <td width="260" valign="top">
 
-**📣 [‎@Raydikalx](https://t.me/Raydikalx)** — کانال نویسنده: خبرهای پروژه و جامعهٔ کاربران این پروژه و پروژهٔ خواهر.
+**📣 [‎@Omnitrix_Network](https://t.me/Omnitrix_Network)** — کانال رسمی پروژه: خبرهای پروژه و جامعهٔ کاربران.
 
-</td>
-<td width="260" valign="top">
-
-**🤖 [‎@configexBot](https://t.me/configexBot)** — ربات رایگان استخراج کانفیگ V2Ray نویسنده، داخل خود تلگرام.
-
-</td>
-<td width="260" valign="top">
+</td><td width="260" valign="top">
 
 **⭐ یک ستاره** همان چیزی است که باعث می‌شود دیگران این پروژه را در GitHub پیدا کنند — یک کلیک به نفر بعدی که دنبال پروکسی سالم تلگرام است کمک می‌کند.
 
@@ -819,57 +756,9 @@ python -m tgproxy --out ./output          # --rounds 3 --gap 20 by default
 </div>
 
 <picture><img src="assets/readme/divider.svg" width="100%" alt="" /></picture>
-
-<div align="center">
-
-<h2 dir="rtl">💜 اختیاری — یک انعام بگذار</h2>
-
-<p dir="rtl">هیچ‌چیز در این صفحه پشت پرداخت نیست و هرگز نخواهد بود: هر فهرستِ بالا دقیقاً یکسان کار می‌کند، چه این بخش را بخوانی چه نخوانی. اما اگر یکی از پروکسی‌های این‌جا تلگرامت را دوباره وصل کرد، می‌توانی انعامی بفرستی. هر مبلغی قدردانی می‌شود — مبلغِ کوچک کاملاً خوب است.</p>
-
-<img src="assets/readme/donate-trc20.svg" width="200" alt="انعام در شبکهٔ TRON (TRC20)" />
-<img src="assets/readme/donate-evm.svg" width="200" alt="انعام در هر شبکهٔ EVM" />
-<img src="assets/readme/donate-ton.svg" width="200" alt="انعام در شبکهٔ TON" />
-
-</div>
-
-<div dir="rtl">
-
-**TRC20 — شبکهٔ Tron**
-
-</div>
-
-```text
-TYBumju6Mjd8JCn4RTq95Kk2HPsdcinuz5
-```
-
-<div dir="rtl">
-
-**زنجیره‌های EVM — Ethereum، BSC، Polygon، Arbitrum، Base، …**
-
-</div>
-
-```text
-0x4A0579eb11de7f80F719C9a4Df6CD39510400E02
-```
-
-<div dir="rtl">
-
-**TON — The Open Network**
-
-</div>
-
-```text
-UQBbZrE5aDsdGVi6enpf_vPuG022W4KjkJNzTDkjVEn4gmu6
-```
-
-> [!IMPORTANT]
-> فقط روی شبکه‌ای بفرست که بالای هر نشانی نام برده شده است. هر QR دقیقاً همان نشانیِ چاپ‌شده زیرش را رمزگذاری می‌کند و هیچ‌چیزِ دیگری — نه مبلغ، نه memo، نه قراردادِ توکن — پس کد و متن دو راهِ خواندنِ یک چیزند. این‌ها همان نشانی‌هایی هستند که پروژهٔ خواهر [Free-v2ray-Configs](https://github.com/0xRadikal/Free-v2ray-Configs/blob/main/README_FA.md) هم آورده است.
-
-<picture><img src="assets/readme/divider.svg" width="100%" alt="" /></picture>
-
 <div align="center" dir="rtl">
 
-**کانال:** [‎@Raydikalx](https://t.me/Raydikalx) · **ربات:** [‎@configexBot](https://t.me/configexBot) · **داشبورد:** [پروکسی‌های زنده](https://0xradikal.github.io/Free-Telegram-Proxy/fa/)
+**کانال:** [‎@Omnitrix_Network](https://t.me/Omnitrix_Network) · **داشبورد:** [پروکسی‌های زنده](https://0xradikal.github.io/Free-Telegram-Proxy/fa/)
 
 <sub>هر عددی که در متن این README نوشته شده یک عکس تاریخ‌دار است. عددهای زنده همیشه در <a href="https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/index.json"><code>index.json</code></a> و <a href="https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/health.json"><code>health.json</code></a> هستند.</sub>
 

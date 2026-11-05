@@ -16,7 +16,7 @@
 - [x] فعال کردن GitHub Pages (workflow)
 - [x] ruleset روی main (deletion + linear history) و tags
 - [x] description و topics ریپو
-- [ ] توکن ربات برای پست خودکار در @Raydikalx — **عمداً انجام نشد** (درخواست مالک)
+- [ ] توکن ربات برای پست خودکار در @Omnitrix_Network — **عمداً انجام نشد** (درخواست مالک)
 - [ ] جایگزینی PAT کلاسیک با توکن fine-grained (فقط Contents/Actions روی همین ریپو)
 
 ## فاز بعد

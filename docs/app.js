@@ -1,5 +1,5 @@
 'use strict';
-/* Raydikalx proof-of-concept: read-only GitHub data. Never posts data or modifies a repository. */
+/* Omnitrix Network proof-of-concept: read-only GitHub data. Never posts data or modifies a repository. */
 const REPO='0xRadikal/Free-Telegram-Proxy';
 const DATA_BASES=[`https://raw.githubusercontent.com/${REPO}/main`,`https://cdn.jsdelivr.net/gh/${REPO}@main`];
 const SNAPSHOT={updated:'2026-10-27T05:59:08Z',runner:{loc:'US',colo:'SEA'},funnel:{links_collected:3168,unique_servers_probed:1844,verified_links:1724,verified_servers:386},tiers:{resilient:{count:354},stable:{count:327},fast:{count:93},verified:{count:1724},faketls:{count:110},secure:{count:86},classic:{count:165}}};

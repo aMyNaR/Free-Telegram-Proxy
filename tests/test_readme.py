@@ -55,7 +55,7 @@ def test_every_rendered_readme_is_a_publishable_output():
     import re
     from pathlib import Path
     from tgproxy.readme import LANGS
-    wf = (Path(__file__).resolve().parent.parent / ".github/workflows/update.yml").read_text()
+    wf = (Path(__file__).resolve().parent.parent / ".github/workflows/update.yml").read_text(encoding="utf-8")
     paths = re.search(r'OUTPUT_PATHS: "([^"]+)"', wf).group(1).split()
     for _, dst, _ in LANGS:
         assert dst in paths, dst
@@ -157,7 +157,7 @@ def test_translations_match_the_english_readme():
         assert s.count("<!-- LIVE:BEGIN -->") == 1 and s.count("<!-- LIVE:END -->") == 1, name
 
 
-_GROW = {"channel": "https://t.me/Raydikalx", "bot": "https://t.me/configexBot",
+_GROW = {"channel": "https://t.me/Omnitrix_Network",
          "star": "https://github.com/0xRadikal/Free-Telegram-Proxy"}
 
 
@@ -185,12 +185,12 @@ def test_channel_bot_and_star_lead_every_readme():
 
 
 def test_english_readme_card_layout():
-    """EN: channel/bot/star on top and again in the closing block; dashboard + Top 100 with the quick start."""
+    """EN: channel/star on top and again in the closing block; dashboard + Top 100 with the quick start."""
     from pathlib import Path
     s = (Path(__file__).resolve().parent.parent / "templates" / "README.md").read_text(encoding="utf-8")
     pos = _cta_positions(s)
     start, live = s.index("Start here"), s.index("<!-- LIVE:BEGIN -->")
-    closing = s.index("Three taps keep this running")
+    closing = s.index("Keep it alive with a tap")
     for card in ("dashboard", "top100"):
         assert len(pos[card]) == 1 and start < pos[card][0][0] < live, card
     for card in _GROW:
@@ -198,28 +198,23 @@ def test_english_readme_card_layout():
         assert pos[card][0][0] < start and pos[card][1][0] > closing, card
 
 
-def test_sister_project_banner_is_prominent_and_correct():
-    """The Free-v2ray-Configs banner links to the repo, has a mobile variant, and in English sits
-    right after the quick start (before the long lists), not at the bottom of the page."""
-    import re
-    root, tpls = _templates()
-    banner = re.compile(r'<a href="https://github\.com/0xRadikal/Free-v2ray-Configs"><picture><source media="\(max-width: 600px\)" '
-                        r'srcset="assets/readme/promo-v2ray-mobile\.svg" /><img src="assets/readme/promo-v2ray\.svg"')
-    for name, s in tpls.items():
-        assert banner.search(s), name
-    en = tpls["README.md"]
-    assert en.index("Start here") < banner.search(en).start() < en.index('<a id="tiers">')
-    svg = (root / "assets/readme/promo-v2ray.svg").read_text(encoding="utf-8")
-    assert "Free V2Ray Configs" in svg
 
-
+def test_no_upstream_promotions_remain_in_readmes():
+    """Personalized fork: nothing left that promotes the upstream author's other projects,
+    bot, donation section or old QR assets. The channel CTA is the only promo element."""
+    _, tpls = _templates()
+    banned = ("promo-v2ray", "configexBot", "leave a tip", "انعام", "чаевые", "donate-")
+    for name, tpl in tpls.items():
+        for b in banned:
+            assert b not in tpl, (name, b)
+        assert '<a href="https://t.me/Omnitrix_Network">' in tpl, name
 def test_template_relative_links_resolve():
     """Every relative link/image in the README templates is either a committed
     source file or a path the publisher writes (OUTPUT_PATHS)."""
     import re
     from pathlib import Path
     root = Path(__file__).resolve().parent.parent
-    wf = (root / ".github/workflows/update.yml").read_text()
+    wf = (root / ".github/workflows/update.yml").read_text(encoding="utf-8")
     outputs = re.search(r'OUTPUT_PATHS: "([^"]+)"', wf).group(1).split()
     for tpl in (root / "templates").glob("README*.md"):
         s = tpl.read_text(encoding="utf-8")
@@ -319,36 +314,8 @@ def test_qr_codes_point_where_their_link_points():
     assert seen >= len(qrs)
 
 
-def test_donation_qr_cards_encode_exactly_the_printed_addresses():
-    """Each donate-*.svg states its payload in <desc> (decoded with OpenCV from the SVG grid and from
-    Chromium renders when the cards were added). Every template must show that exact address in a
-    copyable code block and embed the card — so the QR and the text are two readings of one string."""
-    import re
-    root, tpls = _templates()
-    cards = sorted((root / _SVG_DIR).glob("donate-*.svg"))
-    assert len(cards) == 3, [c.name for c in cards]
-    for card in cards:
-        m = re.search(r"<desc>Donation address \(([^)]+)\): ([A-Za-z0-9_-]+)</desc>", card.read_text(encoding="utf-8"))
-        assert m, card.name
-        addr = m.group(2)
-        for name, s in tpls.items():
-            assert f"```text\n{addr}\n```" in s, (name, card.name)
-            assert f'src="assets/readme/{card.name}"' in s, (name, card.name)
 
-
-def test_funding_file_drives_the_sponsor_button_to_the_tip_section():
-    """.github/FUNDING.yml (ASK#75): valid GitHub schema keys only, at most 4 custom URLs, and
-    the link lands on the README tip section whose QR cards encode the printed addresses."""
+def test_no_funding_config():
+    """The fork carries no Sponsors button and no donation addresses."""
     from pathlib import Path
-    import yaml
-    root = Path(__file__).resolve().parent.parent
-    data = yaml.safe_load((root / ".github" / "FUNDING.yml").read_text(encoding="utf-8"))
-    allowed = {"github", "patreon", "open_collective", "ko_fi", "tidelift", "community_bridge", "liberapay",
-               "issuehunt", "lfx_crowdfunding", "polar", "buy_me_a_coffee", "thanks_dev", "custom"}
-    assert set(data) <= allowed, set(data) - allowed
-    custom = data["custom"] if isinstance(data["custom"], list) else [data["custom"]]
-    assert 1 <= len(custom) <= 4
-    anchors = _anchors((root / "templates" / "README.md").read_text(encoding="utf-8"))
-    for url in custom:
-        assert url.startswith("https://github.com/0xRadikal/Free-Telegram-Proxy#"), url
-        assert url.split("#", 1)[1] in anchors, url
+    assert not (Path(__file__).resolve().parent.parent / ".github" / "FUNDING.yml").exists()

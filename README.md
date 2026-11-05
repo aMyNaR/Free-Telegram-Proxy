@@ -1,16 +1,15 @@
 <div align="center">
-  <a href="https://0xradikal.github.io/Free-Telegram-Proxy/"><picture><source media="(max-width: 600px)" srcset="assets/readme/hero-mobile.svg" /><img src="assets/readme/hero.svg" width="100%" alt="Raydikalx Free Telegram Proxy — verified MTProto proxy list, open the live dashboard" /></picture></a>
+  <a href="https://0xradikal.github.io/Free-Telegram-Proxy/"><picture><source media="(max-width: 600px)" srcset="assets/readme/hero-mobile.svg" /><img src="assets/readme/hero.svg" width="100%" alt="Omnitrix Network Free Telegram Proxy — verified MTProto proxy list, open the live dashboard" /></picture></a>
 
   <p>
-    <a href="https://t.me/Raydikalx"><img src="assets/readme/cta-channel.svg" width="240" alt="Join @Raydikalx" /></a>
-    <a href="https://t.me/configexBot"><img src="assets/readme/cta-bot.svg" width="240" alt="Open @configexBot" /></a>
+    <a href="https://t.me/Omnitrix_Network"><img src="assets/readme/cta-channel.svg" width="240" alt="Join @Omnitrix_Network" /></a>
     <a href="https://github.com/0xRadikal/Free-Telegram-Proxy"><img src="assets/readme/cta-star.svg" width="240" alt="Star on GitHub" /></a>
   </p>
 
   <p>
     <a href="https://github.com/0xRadikal/Free-Telegram-Proxy/actions/workflows/update.yml"><img alt="pipeline" src="https://img.shields.io/github/actions/workflow/status/0xRadikal/Free-Telegram-Proxy/update.yml?style=for-the-badge&amp;label=pipeline&amp;logo=githubactions&amp;logoColor=white" /></a>
     <img alt="auto-update every 15 min" src="https://img.shields.io/badge/auto--update-every%2015%20min-247EFD?style=for-the-badge" />
-    <a href="https://t.me/Raydikalx"><img alt="telegram subscribers" src="https://img.shields.io/endpoint?url=https%3A%2F%2Ftg.sumanjay.workers.dev%2FRaydikalx&amp;label=telegram&amp;color=229ED9&amp;style=for-the-badge&amp;logo=telegram&amp;logoColor=white" /></a>
+    <a href="https://t.me/Omnitrix_Network"><img alt="telegram subscribers" src="https://img.shields.io/endpoint?url=https%3A%2F%2Ftg.sumanjay.workers.dev%2FOmnitrix Network&amp;label=telegram&amp;color=229ED9&amp;style=for-the-badge&amp;logo=telegram&amp;logoColor=white" /></a>
     <a href="https://github.com/0xRadikal/Free-Telegram-Proxy"><img alt="stars" src="https://img.shields.io/github/stars/0xRadikal/Free-Telegram-Proxy?style=for-the-badge&amp;color=FBBF24&amp;logo=github" /></a>
     <a href="https://0xradikal.github.io/Free-Telegram-Proxy/"><img alt="live dashboard" src="https://img.shields.io/badge/live-dashboard-237efd?style=for-the-badge&amp;logo=githubpages&amp;logoColor=white" /></a>
   </p>
@@ -64,54 +63,10 @@ https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/resilient/t
 <b>📱 On your phone? Point the camera at one of these.</b>
 <br>
 <a href="https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/top100.txt"><img src="assets/readme/qr-top100.svg" width="180" alt="QR code: Top 100 proxy list" /></a>
-<a href="https://t.me/configexBot"><img src="assets/readme/qr-bot.svg" width="180" alt="QR code: open @configexBot" /></a>
-<a href="https://t.me/Raydikalx"><img src="assets/readme/qr-channel.svg" width="180" alt="QR code: join @Raydikalx" /></a>
+<a href="https://t.me/Omnitrix_Network"><img src="assets/readme/qr-channel.svg" width="180" alt="QR code: join @Omnitrix_Network" /></a>
 <br>
 <sub>Each QR encodes exactly the URL of the link around it — the Top 100 code opens the live file, not a frozen snapshot.</sub>
 </div>
-
-## 🧩 Sister project — Free V2Ray Configs
-
-<a href="https://github.com/0xRadikal/Free-v2ray-Configs"><picture><source media="(max-width: 600px)" srcset="assets/readme/promo-v2ray-mobile.svg" /><img src="assets/readme/promo-v2ray.svg" width="100%" alt="Free V2Ray Configs, the sister project: free VLESS, VMess, Trojan, Shadowsocks and Reality configs, tested three times — open it on GitHub" /></picture></a>
-
-<div align="center">
-  <a href="https://github.com/0xRadikal/Free-v2ray-Configs"><img alt="Free-v2ray-Configs stars" src="https://img.shields.io/github/stars/0xRadikal/Free-v2ray-Configs?style=for-the-badge&amp;color=FBBF24&amp;logo=github&amp;label=Free-v2ray-Configs" /></a>
-  <a href="https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/index.json"><img alt="V2Ray configs" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2F0xRadikal%2FFree-v2ray-Configs%2Fmain%2Findex.json&amp;query=%24.categories.all.unique&amp;label=configs&amp;color=2563eb&amp;style=for-the-badge" /></a>
-  <a href="https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/health.json"><img alt="V2Ray verified" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2F0xRadikal%2FFree-v2ray-Configs%2Fmain%2Fhealth.json&amp;query=%24.cascade.buckets.verified&amp;label=verified&amp;color=16a34a&amp;style=for-the-badge" /></a>
-</div>
-
-An MTProto proxy carries **Telegram only**. For everything else on your phone or computer, the
-same author maintains **[Free-v2ray-Configs](https://github.com/0xRadikal/Free-v2ray-Configs)** —
-built on the same principles: aggregated from public sources, deduplicated, tested **three
-times** through a real request, and published on `main` about every 15 minutes, with its own
-[live dashboard](https://0xradikal.github.io/Free-v2ray-Configs/). Its shortest path:
-
-```text
-https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/top100.txt
-```
-
-<details>
-<summary><b>Telegram proxy or V2Ray config — which one do I need?</b></summary>
-
-| | Free Telegram Proxy (this repo) | Free V2Ray Configs |
-|:--|:--|:--|
-| **Carries** | Telegram traffic only | all traffic of the device or app routed through the client |
-| **Protocols** | MTProto — classic, `dd`, `ee` (FakeTLS) | VLESS, VMess, Trojan, Shadowsocks, Hysteria2, TUIC, … |
-| **You need** | only Telegram | a client such as v2rayNG, Hiddify, NekoBox, v2rayN, Clash Meta or Shadowrocket |
-| **Proof of work** | `req_pq_multi` relayed to a Telegram DC, 3 rounds | a real HTTP request through the proxy, 3 rounds; Clash and sing-box files checked by the real, version-pinned `sing-box` and `mihomo` binaries |
-| **Formats** | `tg.txt` · `tme.txt` · `proxies.json` | `configs.txt` · `configs_base64.txt` · `clash.yaml` · `singbox.json` |
-
-The full verified subscription:
-
-```text
-https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/verified/configs_base64.txt
-```
-
-The same caveat applies there: "verified" means it worked from that project's test runner,
-not necessarily from your network.
-
-</details>
-
 <picture><img src="assets/readme/divider.svg" width="100%" alt="" /></picture>
 
 <a id="tiers"></a><a id="choose-the-right-list"></a>
@@ -256,7 +211,7 @@ and publishes both numbers: **verified links** and **real servers**.
 
 <a id="why-this-project-exists"></a>
 
-<p align="center"><img src="assets/readme/principles.svg" width="100%" alt="Three Raydikalx engineering principles: verification, diversity, transparency" /></p>
+<p align="center"><img src="assets/readme/principles.svg" width="100%" alt="Three Omnitrix Network engineering principles: verification, diversity, transparency" /></p>
 
 Each link is pushed through these stages. Every stage is cheap enough to run on the whole
 pool, and each one throws away work the next stage would have wasted:
@@ -798,30 +753,21 @@ nothing here has to be taken on faith. Use responsibly and in accordance with yo
 
 <div align="center">
 
-## Three taps keep this running
+## Keep it alive with a tap
 
-There is no sign-up, no ad and no paywall here. The three things that actually keep it alive
+There is no sign-up, no ad and no paywall here. The things that actually keep it alive
 cost you nothing at all:
 
-<a href="https://t.me/Raydikalx"><img src="assets/readme/cta-channel.svg" width="240" alt="Join @Raydikalx" /></a>
-<a href="https://t.me/configexBot"><img src="assets/readme/cta-bot.svg" width="240" alt="Open @configexBot" /></a>
+<a href="https://t.me/Omnitrix_Network"><img src="assets/readme/cta-channel.svg" width="240" alt="Join @Omnitrix_Network" /></a>
 <a href="https://github.com/0xRadikal/Free-Telegram-Proxy"><img src="assets/readme/cta-star.svg" width="240" alt="Star on GitHub" /></a>
 
 <table>
 <tr>
 <td width="260" valign="top">
 
-**📣 [@Raydikalx](https://t.me/Raydikalx)** — the author's channel: project news and the
-community around this and the sister project.
+**📣 [@Omnitrix_Network](https://t.me/Omnitrix_Network)** — the official channel: project news and the community.
 
-</td>
-<td width="260" valign="top">
-
-**🤖 [@configexBot](https://t.me/configexBot)** — the author's free V2Ray config extractor bot,
-right inside Telegram.
-
-</td>
-<td width="260" valign="top">
+</td><td width="260" valign="top">
 
 **⭐ A star** is how people find this on GitHub — one click helps the next person looking for a
 working Telegram proxy.
@@ -833,50 +779,9 @@ working Telegram proxy.
 </div>
 
 <picture><img src="assets/readme/divider.svg" width="100%" alt="" /></picture>
-
 <div align="center">
 
-## 💜 Optional — leave a tip
-
-Nothing on this page is behind a payment and nothing ever will be: every list above works exactly
-the same whether or not you read this section. But if a proxy from here got your Telegram back
-online, you can send a tip. Any amount is appreciated — a small one is completely fine.
-
-<img src="assets/readme/donate-trc20.svg" width="200" alt="Donate on the TRON TRC20 network" />
-<img src="assets/readme/donate-evm.svg" width="200" alt="Donate on any EVM network" />
-<img src="assets/readme/donate-ton.svg" width="200" alt="Donate on The Open Network" />
-
-</div>
-
-**TRC20 — Tron network**
-
-```text
-TYBumju6Mjd8JCn4RTq95Kk2HPsdcinuz5
-```
-
-**EVM chains — Ethereum, BSC, Polygon, Arbitrum, Base, …**
-
-```text
-0x4A0579eb11de7f80F719C9a4Df6CD39510400E02
-```
-
-**TON — The Open Network**
-
-```text
-UQBbZrE5aDsdGVi6enpf_vPuG022W4KjkJNzTDkjVEn4gmu6
-```
-
-> [!IMPORTANT]
-> Send only on the network named above each address. Each QR encodes exactly the address printed
-> under it and nothing else — no amount, no memo, no token contract — so the code and the text are
-> two ways of reading the same thing. These are the same addresses the sister project
-> [Free-v2ray-Configs](https://github.com/0xRadikal/Free-v2ray-Configs#-optional--leave-a-tip) lists.
-
-<picture><img src="assets/readme/divider.svg" width="100%" alt="" /></picture>
-
-<div align="center">
-
-**Channel:** [@Raydikalx](https://t.me/Raydikalx) · **Bot:** [@configexBot](https://t.me/configexBot) · **Dashboard:** [live proxies](https://0xradikal.github.io/Free-Telegram-Proxy/)
+**Channel:** [@Omnitrix_Network](https://t.me/Omnitrix_Network) · **Dashboard:** [live proxies](https://0xradikal.github.io/Free-Telegram-Proxy/)
 
 <sub>Every number written in the prose of this README is a dated snapshot. The live numbers are always in
 <a href="https://raw.githubusercontent.com/0xRadikal/Free-Telegram-Proxy/main/index.json"><code>index.json</code></a> and

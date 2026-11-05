@@ -10,6 +10,6 @@
 | Report a security problem | Privately — see [SECURITY.md](SECURITY.md) |
 | Report something hard to use (keyboard, screen reader, contrast, motion…) | Issue form [**Accessibility barrier**](https://github.com/0xRadikal/Free-Telegram-Proxy/issues/new?template=accessibility.yml) — see [ACCESSIBILITY.md](ACCESSIBILITY.md) |
 | Report abusive behaviour | See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) → Enforcement |
-| Get announcements | [Telegram @Raydikalx](https://t.me/Raydikalx) |
+| Get announcements | [Telegram @Omnitrix_Network](https://t.me/Omnitrix_Network) |
 
 Before reporting that "most proxies are dead": every proxy is verified from a GitHub runner, not from your ISP. A proxy can work there and still be blocked on your network — try the next line.

@@ -210,7 +210,7 @@ def test_language_switch_opens_the_other_language(rel, other):
     assert _local_target(lang["href"], rel) == _file(other)
     for f in list(DOCS.glob("*.js")) + [_file(r) for r in PAGES]:
         s = f.read_text(encoding="utf-8")
-        assert "Raydikalx_V7_Telegram_Preview" not in s, f
+        assert "Omnitrix Network_V7_Telegram_Preview" not in s, f
         assert "window.location" not in s, f  # navigation must stay a real link
 
 
@@ -308,7 +308,7 @@ def test_persian_page_has_no_english_ui_defaults():
     for i in ("sourceText", "emptyTitle", "emptyDesc", "motionLabel"):
         txt = "".join(p.by_id[i]).strip()
         assert PERSIAN.search(txt), (i, txt)
-    allowed = {"GitHub", "Telegram", "Raydikalx", "MTProto", "FakeTLS"}
+    allowed = {"GitHub", "Telegram", "Omnitrix", "Network", "MTProto", "FakeTLS"}
     for rel, lang in PAGES.items():
         if lang != "fa":
             continue
