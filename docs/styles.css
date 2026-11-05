@@ -367,3 +367,75 @@ html[lang="en"] body{word-spacing:.06em}
 @media(max-width:1040px){.data-table th:nth-child(1){width:25%}.data-table th:nth-child(6){width:20%}.data-table td.action-cell{padding-left:10px;padding-right:10px}.data-table .cell-connect{padding-left:10px;padding-right:10px}.row-actions{gap:5px}.data-table .cell-copy{width:38px;min-width:38px}}
 @media(max-width:340px){.proxy-card .row-actions{gap:6px}.proxy-card .cell-copy,.proxy-card .row-actions .cell-connect{padding-left:8px;padding-right:8px}}
 @media(min-width:1200px){.data-table .cell-copy{width:auto;padding:0 12px}.data-table .cell-copy-text{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}}
+
+C:\Users\csh
+/* ======= Omnitrix Ocean Dark theme (home pages) ======= */
+:root{color-scheme:dark;--page:#04101E;--ink:#E8F3FF;--blue:#47C2FF;--blue-strong:#247EFD;--soft:#0A1D36;--edge:rgba(127,196,255,.16);--muted:#9DBAD9;--quiet:#6E8DB1;--stroke:rgba(127,196,255,.14);--surface:#08192F;--shadow:0 14px 55px rgba(0,0,0,.45)}
+html{background:#04101E}body{background:#04101E;color:#E8F3FF}
+main{background:radial-gradient(ellipse at 70% 10%,rgba(30,90,160,.28),transparent 46%),#050F1C}
+.site-top{background:radial-gradient(ellipse at 80% 24%,rgba(70,190,255,.18),transparent 40%),linear-gradient(122deg,#05182E 0%,#06213D 46%,#073154 100%)}
+.topbar{border-bottom-color:rgba(255,255,255,.14)}
+.identity-icon{background:#0A2445;box-shadow:0 7px 20px rgba(0,0,0,.5)}
+.lightball-a{background:radial-gradient(circle,rgba(140,210,255,.35),transparent 70%)}
+.lightball-b{background:radial-gradient(circle,rgba(120,200,255,.22),transparent 70%)}
+.hero-noise{background:radial-gradient(circle at var(--pointer-x,75%) var(--pointer-y,43%),rgba(160,220,255,.08),transparent 30%);opacity:.6}
+.stat-item{background:#0A1D36;border-color:rgba(127,196,255,.14);box-shadow:0 8px 28px rgba(0,0,0,.35)}
+.stat-k{color:#8FB0D6}.stat-item strong{color:#EAF6FF}.stat-foot{color:#7C9CC0}
+.stat-decor{color:rgba(130,190,255,.12)}
+.freshness-bar{color:#7C99BC}.freshness-divider{background:rgba(127,196,255,.22)}
+.source-status{color:#E0B45C}.source-status.live{color:#6BD6A0}.source-status.stale,.source-status.error{color:#F0A05A}
+.refresh-btn{border-color:rgba(127,196,255,.26);background:#0B2140;color:#7FC4FF}.refresh-btn:hover{background:#102C52}
+.section-caption-left{color:#7193BB}.run-location{color:#6887AB}
+.workspace{background:#08192F;border-color:rgba(127,196,255,.18)}
+.workspace-header{background:linear-gradient(100deg,#0B2A50,#0D3463);border-bottom-color:rgba(127,196,255,.18)}
+.workspace-intro span{color:#8FB2DA}
+.workspace-indicator{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.22);color:#DCEBFF}
+.workspace-indicator.live{color:#7FE0B4;border-color:rgba(127,224,180,.4)}
+.tier-scroller{background:#0A1E38;border-color:rgba(127,196,255,.1)}
+.tier-btn{color:#9BB9DC}.tier-btn:hover{background:#123254}
+.tier-btn[aria-pressed="true"]{background:#1F6FE8!important;border-color:#2C7FF2!important;color:#fff!important}
+.tier-count{color:#6E8DB1}
+.filter-zone{background:#0B1F3A;border-bottom-color:rgba(127,196,255,.12)}
+.field,.select-field select{background:#0B2140;border-color:rgba(127,196,255,.26);color:#CFE5FF}
+.search-field input::placeholder{color:#6E8DB1}
+.search-field svg{color:#6E8DB1}
+.result-toolbar{color:#8FB0D6}.result-meta{color:#7C9CC0}
+.sample-tag{background:rgba(255,190,90,.12);color:#FFD58A}
+.data-table th{background:#0C2442;color:#9FBCDF}
+.data-table td{border-bottom-color:rgba(127,196,255,.1)}
+.data-table tbody tr:hover td{background:#0F2C50}
+.server-text{color:#E6F2FF}.operator-text{color:#8FAFD2}
+.cell-copy{background:#0E2A4C;border-color:rgba(127,196,255,.3);color:#7FC4FF}.cell-copy:hover:not(:disabled){background:#14355F;border-color:#5BA6F5}
+.cell-copy.is-copied{background:#0F3A2C;border-color:#2F8F5F;color:#7CE0AE}
+.cell-copy:disabled{background:#0A1830;border-color:rgba(127,196,255,.1);color:#4C6484}
+.copy-all{background:#166BE0;border-color:#1F72E8}.copy-all:hover:not(:disabled){background:#0D58C6}
+.proxy-card{background:#0A1D36;border-color:rgba(127,196,255,.14)}
+.proxy-card-grid{border-top-color:rgba(127,196,255,.12)}.proxy-card-grid small{color:#6E8DB1}.proxy-card-grid strong{color:#DCEBFF}
+.workspace-footer{color:#7C9CC0}
+.clear-filter{color:#9FBCDF}
+.integrity-note{background:linear-gradient(120deg,#0B2342,#0A1C36);border-color:rgba(127,196,255,.16)}
+.method-area{background:#07182E;border-top-color:rgba(127,196,255,.12)}
+.method-card{background:linear-gradient(155deg,#0B2140,#0A1B35);border-color:rgba(127,196,255,.14)}
+.method-card h3{color:#E8F3FF}.method-card p{color:#8FAFD2}.method-glyph{color:rgba(140,200,255,.18)}
+.track-label{color:#6887AB}.verification-track-line{background:rgba(127,196,255,.2)}
+.verification-track-line i{background:#0A1D36;border-color:#4F96E8;box-shadow:0 0 0 4px rgba(15,44,76,.9)}
+.external-link{background:#0B2240;border-color:rgba(127,196,255,.28);color:#8EC8FF}.external-link:hover{background:#102C52}
+.section-heading p,.method-heading p{color:#8FAFD2}.overline{color:#5FA6F0}
+.seo-explainer{border-top-color:rgba(127,196,255,.12)}
+.seo-explainer h2,.seo-faq h2{color:#E0EEFF}
+.seo-fact-grid article,.seo-faq-item{background:#0A1D36;border-color:rgba(127,196,255,.14)}
+.seo-fact-grid h3{color:#DCEBFF}.seo-fact-grid p{color:#8FAFD2}
+.seo-faq-item summary{color:#DCEBFF}.seo-faq-item p{color:#84A2C4}
+.seo-read-method{color:#7FC4FF}.seo-reference-links a,.seo-update-note a{color:#7FC4FF}
+.seo-reference-links a{background:#0B2240;border-color:rgba(127,196,255,.26)}
+.seo-update-note{background:#0A1D36;border-color:rgba(127,196,255,.16);color:#A8C4E2}
+.seo-update-note h3{color:#DCEBFF}
+.seo-noscript{background:#0B2140;border-color:rgba(127,196,255,.22);color:#B9D4F2}
+.site-footer{background:#060E1C;border-top-color:rgba(127,196,255,.12)}
+.footer-brand span{color:#6E8DB1}.footer-links a{color:#7C9CC0}.footer-links a:hover{color:#47C2FF}
+.skip{background:#0F2C50;color:#8EC8FF}
+.toast{background:#0B2A50;border:1px solid rgba(127,196,255,.25)}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline-color:#3F8FFF}
+.site-top :where(a,button):focus-visible{outline-color:#BFE4FF}
+.select-field select option{background:#0B2140;color:#CFE5FF}
+::selection{background:rgba(71,194,255,.35)}
