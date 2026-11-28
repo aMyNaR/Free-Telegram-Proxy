@@ -1,1 +1,2 @@
 tg://proxy?server=193.26.115.138&port=443&secret=eef200b7138424bb9f8fef33d1b56fba407275747562652e7275
+tg://proxy?server=romania-wispbyte.matialz.loc.cc&port=14588&secret=eef4476a8369a05229ea89b0a4cce9d7237777772e676f6f676c652e636f6d
